@@ -19,7 +19,8 @@ body {
 	font-smoothing: antialiased;
   height:100%;
 	hyphens:none;
-	line-height: 24px;
+  line-height: 24px;
+  overscroll-behavior: none;
 	padding: 0;
 	margin: 0;
 	text-rendering: optimizeLegibility;
@@ -30,6 +31,20 @@ body {
     	background: #e1ebf1;
     	color: #2c2c2c;
     }
+}
+
+a {
+  color: #2FACB2;
+  display: inline-block;
+  tap-highlight-color: transparent;
+  text-decoration: none;
+
+  &:active,
+  &:hover,
+  &:active,
+  &:visited {
+      text-decoration:none;
+  }
 }
 
 .app {
