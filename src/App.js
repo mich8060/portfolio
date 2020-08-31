@@ -4,6 +4,7 @@ import './app.scss';
 import About from './components/about/'
 import Header from './components/header/'
 import Intro from './components/intro/'
+import Work from './components/work/'
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Header />
 			<Intro />
 			<About />
+			<Work />
 		</div>
 	);
 }

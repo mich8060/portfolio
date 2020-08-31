@@ -1,0 +1,19 @@
+.subtitle {
+    background:#2FACB2;
+    border-radius:2px;
+    color:#fff;
+    display:inline-flex;
+    flex-grow: 0;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 3px;
+    margin-bottom:12px;
+    padding:4px 4px 4px 7px;
+    text-transform: uppercase;
+    
+    span {
+        position: relative;
+        top:1px;
+    }
+}

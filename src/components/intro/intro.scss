@@ -10,48 +10,4 @@
     padding:60px 0 30px;
     position:relative;
     width:100vw;
-
-    &--container {
-        max-width:1024px;
-        padding:0 20px;
-        position:relative;
-        width:100%;
-        z-index:999;
-    }
-
-    &--display {
-        font-size: 28px;
-        font-weight: 900;
-        letter-spacing: -1.5px;
-        line-height: 32px;
-        margin:12px 0;
-        text-indent: -2px;
-    
-        @media only screen and (min-width:769px) {
-            font-size: 72px;
-            line-height: 64px;
-        }
-    }
-
-    &--heading {
-        color:rgba(255,255,255,0.60);
-        font-size: 24px;
-        font-weight:600;
-        line-height: 24px;
-        letter-spacing: 0;
-    }
-
-    &--title {
-        background:#2FACB2;
-        border-radius:2px;
-        color:#fff;
-        display:inline-block;
-        font-weight: 900;
-        font-size: 12px;
-        line-height: 24px;
-        letter-spacing: 4px;
-        padding:0 8px;
-        text-indent: 4px;
-        text-transform: uppercase;
-    }
 }

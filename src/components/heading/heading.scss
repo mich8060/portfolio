@@ -1,0 +1,11 @@
+.heading {
+    color:rgba(255,255,255,0.60);
+    font-size: 24px;
+    font-weight:500;
+    line-height: 32px;
+    letter-spacing: 0;
+
+    &.dark {
+        color:rgba(0,0,0,0.60);
+    }
+}
