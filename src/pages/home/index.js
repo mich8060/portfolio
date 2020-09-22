@@ -13,6 +13,7 @@ import Kindred from '../../assets/img/TheKindredConversationWebsite.jpg'
 import Skullcandy from '../../assets/img/skullcandy.jpg'
 import Competitive from '../../assets/img/competitive.jpg'
 import Viknow from '../../assets/img/ViKnowApp.jpg'
+import Pluralsight from '../../assets/img/pluralsight.jpg'
 
 function Home(){
     return(
@@ -20,6 +21,16 @@ function Home(){
 			<Intro />
 			<About />
 			<Work />
+			<Project 
+				image={Pluralsight}
+				action="View Site"
+				href="https://app.pluralsight.com"
+				symbol="P" 
+				role="Product Designer" 
+				theme="dark"
+				title="Pluralsight App Homepage" 
+				desc="I am responsible for designing the apps homepage which includes several variations based on what licence you have or where you are in your journey." 
+			/>
 			<Project 
 				image={Kindred}
 				action="View Site"
