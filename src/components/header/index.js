@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './header.scss'
 
 import Nav from '../nav/'
@@ -6,7 +7,7 @@ import Nav from '../nav/'
 function Header(){
     return(
         <header className="header light">
-            <a href="https://www.michael-stevens.me">Michael Stevens</a>
+            <Link to="/">Michael Stevens</Link>
             <Nav />
         </header>
     )

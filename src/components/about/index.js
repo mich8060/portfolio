@@ -12,10 +12,10 @@ function About(){
     return(
         <Container>
             <Subtitle>About</Subtitle>
-            <Display>I am currently a Sr. Product Designer at <a href="http://www.pluralsight.com/" target="_blank">Pluralsight</a> and I also freelance from <span>time-to-time</span>.</Display>
+            <Display>I am currently a Sr. Product Designer at <a href="http://www.pluralsight.com/" target="_blank" rel="noopener noreferrer">Pluralsight</a> and I also freelance from <span>time-to-time</span>.</Display>
             <Heading theme="dark">
                 Check the list below to see some of the skills I've obtained throughout
-                the years. You can always <a href="mailto:mich8060@hotmail.com" target="_blank">email me</a> to learn more.
+                the years. You can always <a href="mailto:mich8060@hotmail.com" target="_blank" rel="noopener noreferrer">email me</a> to learn more.
             </Heading>
             <List>
                 <div className="list--column">
