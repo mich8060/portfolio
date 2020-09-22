@@ -9,8 +9,10 @@ import Work from '../../components/work/'
 import Jasons from '../../assets/img/jasons.jpg'
 import Backcountry from '../../assets/img/backcountry_site.jpg'
 import Bcapp from '../../assets/img/backcountry_app.jpg'
+import Kindred from '../../assets/img/TheKindredConversationWebsite.jpg'
 import Skullcandy from '../../assets/img/skullcandy.jpg'
 import Competitive from '../../assets/img/competitive.jpg'
+import Viknow from '../../assets/img/ViKnowApp.jpg'
 
 function Home(){
     return(
@@ -19,13 +21,23 @@ function Home(){
 			<About />
 			<Work />
 			<Project 
-				image={Jasons}
-				action="View in App Store"
-				href="https://apps.apple.com/us/app/jasons-deli/id1225753298"
-				symbol="J" 
+				image={Kindred}
+				action="View Site"
+				href="https://www.thekindredconversation.com"
+				symbol="K" 
 				role="Product Designer" 
 				theme="light"
-				title="Jason's Deli App" 
+				title="The Kindred Conversation" 
+				desc="I completely designed the experience from start to finish including: Visual design, information architecture and all view templates &amp; experiences." 
+			/>
+			<Project 
+				image={Viknow}
+				action="Landing Page"
+				href="https://sippd.com/app"
+				symbol="S" 
+				role="Product Designer" 
+				theme="dark"
+				title="Sippd App" 
 				desc="I completely designed the experience from start to finish including: Visual design, information architecture and all view templates &amp; experiences." 
 			/>
 			<Project 
@@ -37,6 +49,16 @@ function Home(){
 				theme="light"
 				title="Backcountry.com" 
 				desc="Principal UX Designer, Visual Designer and Information Architect for all global page types & patterns. Lead all design efforts in iterating site. Hands on user testing with hundreds of users. Formal presentation to Executive, teams and stakeholders." 
+			/>
+			<Project 
+				image={Jasons}
+				action="View in App Store"
+				href="https://apps.apple.com/us/app/jasons-deli/id1225753298"
+				symbol="J" 
+				role="Product Designer" 
+				theme="light"
+				title="Jason's Deli App" 
+				desc="I completely designed the experience from start to finish including: Visual design, information architecture and all view templates &amp; experiences." 
 			/>
 			<Project 
 				image={Skullcandy}
