@@ -8,9 +8,12 @@ function Project(props){
         <section className={
             "project " +
             props.theme
-        } style={{
-            backgroundImage:'url('+props.image+')'
-        }}>
+        } >
+            <div className="project--image"style={{
+                backgroundImage:'url('+props.image+')'
+            }}>
+                <img src={props.image} />
+            </div>
             <div className="project--container">
                 <div className="project--symbol">{props.symbol}</div>
                 <div className="project--title">{props.title}</div>

@@ -12,7 +12,7 @@ function About(){
     return(
         <Container>
             <Subtitle>About</Subtitle>
-            <Display>I am currently a Sr. Product Designer at <a href="http://www.pluralsight.com/" target="_blank" rel="noopener noreferrer">Pluralsight</a> and I also freelance from <span>time-to-time</span>.</Display>
+            <Display>I am currently a Sr. Product Designer at <a href="http://www.pluralsight.com/" target="_blank" rel="noopener noreferrer">Pluralsight</a>, a freelance from <span>time-to-time</span> and an Adjunct Professor.</Display>
             <Heading theme="dark">
                 Check the list below to see some of the skills I've obtained throughout
                 the years. You can always <a href="mailto:mich8060@hotmail.com" target="_blank" rel="noopener noreferrer">email me</a> to learn more.
@@ -20,6 +20,7 @@ function About(){
             <List>
                 <div className="list--column">
                     <div className="list--title">Education</div>
+                    <Role title="Adjunct Professor" timeline="Weber State University – Aug 2020 to Present" />
                     <Role title="Senior Product Designer" timeline="Pluralsight.com – July 2016 to Present" />
                     <Role title="Principal Designer" timeline="Backcountry.com – January 2015 to July 2016" />
                     <Role title="Senior User Experience Design Manager" timeline="Backcountry.com – November 2014 to January 2015" />
@@ -39,7 +40,7 @@ function About(){
                     <Role title="Technology" timeline="HTML5, CSS, SASS, jQuery, PHP, SQL, JavaScript, Node, React.js, Vue.js" />
                     <Role title="Research" timeline="Usability Testing, Survey Composition, Analytics Technologies, User Interviews, Persona Development" />
                     <Role title="Product Management" timeline="Analytics, OKR creation &amp; management, Executive &amp; Stakeholder communications &amp; presentation" />
-                    <Role title="Servant Leadership &amp; Management" timeline="1:1 Communication, Career Growth, Personal therapist." />
+                    <Role title="Servant Leadership &amp; Management" timeline="1:1 Communication, Career Growth, Active Listening, Problem Solving, Conflict Management, Interpersonal Relationship Development and Mentorship." />
                 </div>
             </List>
         </Container>

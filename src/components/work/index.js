@@ -10,8 +10,11 @@ function Work(){
     return(
         <Container theme="dark">
             <Subtitle>Work</Subtitle>
-            <Display>I have designed brands like Pluralsight, Backcountry, Skullcandy, Competitive Cyclist &amp; Jason's Deli.</Display>
-            <Heading>In the past twelve years I have made a great efforts to achieve and grow in all aspects of both design &amp; business knowledge. See some of my projects below.</Heading>
+            <Display>I have designed for brands such as Pluralsight, Backcountry, Skullcandy, Competitive Cyclist &amp; Jason's Deli.</Display>
+            <Heading>
+                In the past seventeen years I have made great efforts to continually develop,
+                grow and achieve success in all aspects of both design & business knowledge.
+            </Heading>
         </Container>
     )
 }
