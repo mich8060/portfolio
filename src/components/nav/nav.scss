@@ -1,7 +1,19 @@
+@import '../../design';
+
 .nav {
+    background:$white;
+    display:none;
     margin-left: auto;
-    
-    @media only screen and (min-width:769px) {
+
+    @include breakpoint(tablet) {
         display:flex;
+    }
+
+    a {
+        color:#2c2c2c;
+        display:block;
+        margin:0;
+        padding:0 20px;
+        text-transform: uppercase;
     }
 }

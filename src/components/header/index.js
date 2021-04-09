@@ -7,7 +7,7 @@ import Nav from '../nav/'
 function Header(){
     return(
         <header className="header light">
-            <Link to="/">Michael Stevens</Link>
+            <Link className="header--mark" to="/">Michael Stevens</Link>
             <Nav />
         </header>
     )

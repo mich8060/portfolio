@@ -45,14 +45,14 @@
     }
 
     &--image {
-        display:flex;
-        justify-content: flex-end;
         overflow:hidden;
 
         @include breakpoint(tablet) {
             background-size: cover;
             background-repeat: no-repeat;
             bottom:0;
+            display:flex;
+            justify-content: flex-end;
             left:0;
             position:absolute;
             right:0;
@@ -62,9 +62,12 @@
         img {
             display:block;
             margin:0;
+            position:relative;
+            left:-30%;
             width:140%;
 
             @include breakpoint(tablet) {
+                left:0;
                 display:none;
             }
         }
