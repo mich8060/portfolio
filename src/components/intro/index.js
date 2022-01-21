@@ -10,7 +10,7 @@ function Intro(){
     return(
         <Container theme="dark">
             <Subtitle>Intro</Subtitle>
-            <Display>Sr. Product Designer &amp; Freelancer &ndash; <span>Salt Lake City, Utah.</span></Display>
+            <Display>Principal Product Designer &amp; Freelancer &ndash; <span>Salt Lake City, Utah.</span></Display>
             <Heading>
                 See bits and pieces of my design work on <a href="http://www.dribbble.com/mich8060" title="Dribbble" target="_blank" rel="noopener noreferrer">Dribbble</a>,
                 and a full resume on <a href="https://www.linkedin.com/in/michael-stevens-a010a66" title="Linkedin" target="_blank" rel="noopener noreferrer">Linkedin</a>.
