@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from "react-router-dom";
 import './header.scss'
 
 import Nav from '../nav/'
@@ -7,7 +5,7 @@ import Nav from '../nav/'
 function Header(){
     return(
         <header className="header light">
-            <Link className="header--mark" to="/">Michael Stevens</Link>
+            <div className="header--mark">Michael Stevens</div>
             <Nav />
         </header>
     )

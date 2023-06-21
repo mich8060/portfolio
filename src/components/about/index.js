@@ -12,15 +12,16 @@ function About(){
     return(
         <Container>
             <Subtitle>About</Subtitle>
-            <Display>I am currently a Principal Product Designer at <a href="http://www.pluralsight.com/" target="_blank" rel="noopener noreferrer">Pluralsight</a>, a Freelancer and an Adjunct Professor.</Display>
+            <Display>I am currently Head of Design at <a href="http://www.projectbroadcast.com/" target="_blank" rel="noopener noreferrer">Project Broadcast</a> &amp; a Freelancer.</Display>
             <Heading theme="dark">
                 Check the list below to see some of the skills I've obtained throughout
                 the years. You can always <a href="mailto:mich8060@hotmail.com" target="_blank" rel="noopener noreferrer">email me</a> to learn more.
             </Heading>
             <List>
                 <div className="list--column">
-                    <div className="list--title">Education</div>
-                    <Role title="Principal Product Designer" timeline="Pluralsight.com – June 2021 to Present" />
+                    <div className="list--title">experience</div>
+                    <Role title="Head of Design" timeline="Project Broadcast – April 2022 to Present" />
+                    <Role title="Principal Product Designer" timeline="Pluralsight.com – June 2021 to April 2022" />
                     <Role title="Adjunct Professor" timeline="Weber State University – Aug 2020 to June 2021" />
                     <Role title="Sr. Product Designer" timeline="Pluralsight.com – July 2016 to June 2021" />
                     <Role title="Principal Designer" timeline="Backcountry.com – January 2015 to July 2016" />
