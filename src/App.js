@@ -7,7 +7,6 @@ import About from './components/about/'
 import Intro from './components/intro/'
 import Project from './components/project/'
 import Work from './components/work/'
-
 import Jasons from './assets/img/jasons.jpg'
 import Backcountry from './assets/img/backcountry_site.jpg'
 import Bcapp from './assets/img/backcountry_app.jpg'
@@ -19,7 +18,7 @@ import Pluralsight from './assets/img/pluralsight.jpg'
 
 function App() {
 	return (
-        <div className="app">
+        <div className="app test">
             <Header />
             <div className="home">
                 <Intro />
