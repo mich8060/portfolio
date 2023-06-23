@@ -12,7 +12,7 @@ function Project(props){
             <div className="project--image"style={{
                 backgroundImage:'url('+props.image+')'
             }}>
-                <img src={props.image} />
+                <img src={props.image} alt={props.title} />
             </div>
             <div className="project--container">
                 <div className="project--symbol">{props.symbol}</div>
