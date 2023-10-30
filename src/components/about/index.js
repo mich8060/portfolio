@@ -12,7 +12,7 @@ function About(){
     return(
         <Container>
             <Subtitle>About</Subtitle>
-            <Display>I am currently Head of Design at <a href="http://www.projectbroadcast.com/" target="_blank" rel="noopener noreferrer">Project Broadcast</a> &amp; a Freelancer.</Display>
+            <Display>I am currently Head of Product & Design at <a href="http://www.projectbroadcast.com/" target="_blank" rel="noopener noreferrer">Project Broadcast</a> &amp; a Freelancer.</Display>
             <Heading theme="dark">
                 Check the list below to see some of the skills I've obtained throughout
                 the years. You can always <a href="mailto:mich8060@hotmail.com" target="_blank" rel="noopener noreferrer">email me</a> to learn more.
@@ -39,7 +39,7 @@ function About(){
                     <Role title="Weber State University" timeline="BFA, Visual Communications" />
                     <Role title="Ogden Applied Technology College" timeline="Technical Associates Degree, Multimedia &amp; Web Development" />
                     <div className="list--title">Skills</div>
-                    <Role title="Design" timeline="Layout Hierarchy, Typography, Color Theory, Branding, Adobe Creative Suite, Creative Thinking and Design System Creation." />
+                    <Role title="Design" timeline="Figma, Layout Hierarchy, Typography, Color Theory, Branding, Adobe Creative Suite, Creative Thinking and Design System Creation." />
                     <Role title="Technology" timeline="HTML5, CSS, SASS, jQuery, PHP, SQL, JavaScript, Node, React.js, Vue.js" />
                     <Role title="Research" timeline="Usability Testing, Survey Composition, Analytics Technologies, User Interviews, Persona Development." />
                     <Role title="Product Management" timeline="Analytics, OKR creation &amp; management, Executive &amp; Stakeholder communications &amp; presentation, Public Speaking and Strategy Development." />
