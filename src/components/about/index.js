@@ -20,7 +20,7 @@ function About(){
             <List>
                 <div className="list--column">
                     <div className="list--title">experience</div>
-                    <Role title="Head of Design" timeline="Project Broadcast – April 2022 to Present" />
+                    <Role title="Head of Product &amp; Design" timeline="Project Broadcast – April 2022 to Present" />
                     <Role title="Principal Product Designer" timeline="Pluralsight.com – June 2021 to April 2022" />
                     <Role title="Adjunct Professor" timeline="Weber State University – Aug 2020 to June 2021" />
                     <Role title="Sr. Product Designer" timeline="Pluralsight.com – July 2016 to June 2021" />
