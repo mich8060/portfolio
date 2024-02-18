@@ -1,8 +1,9 @@
 .tab-buttons {
     border:solid 1px var(--neutrals--400);
-    width:fit-content;
-    padding:4px;
     border-radius:100px;
+    padding:4px;
+    margin:12px 0;
+    width:fit-content;
 
     button {
         background:transparent;

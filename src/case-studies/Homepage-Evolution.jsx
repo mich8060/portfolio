@@ -7,14 +7,19 @@ function HomepageEvolution(){
     return (
         <>
             <div className="details--visual">
-                <img src="/michael-stevens-pluralsight-home-hero.png" alt="" />
+                <div className="details--desktop"><img src="/michael-stevens-pluralsight-home-hero_desktop.png" alt="" /></div>
+                <div className="details--tablet"><img src="/michael-stevens-pluralsight-home-hero_tablet.png" alt="" /></div>
+                <div className="details--mobile"><img src="/michael-stevens-pluralsight-home-hero_mobile.png" alt="" /></div>
+                <div className="details--visual_left" style={{background:'#202938'}}></div>
+                <div className="details--visual_right" style={{background:'#202938'}}></div>
+                <img src="" alt="" />
             </div>
             <div className="details--headline">
                 <h1>The Story of Pluralsight's Homepage Evolution</h1>
                 <ul>
-                    <li>Role: Sr. Product Designer</li>
-                    <li>Client: Pluralsight</li>
-                    <li>Date: 2019-2022</li>
+                    <li><strong>Role:</strong> Sr. Product Designer</li>
+                    <li><strong>Client:</strong> Pluralsight</li>
+                    <li><strong>Date:</strong> 2019-2022</li>
                 </ul>
             </div>
             <div className="details--block">

@@ -4,8 +4,13 @@
     align-items: center;
     display:flex;
     justify-content: center;
-    height:600px;
+    padding-bottom:80px;
     padding-top:80px;
+
+    @media screen and (min-width: $breakpoint--small) {
+        height:600px;
+        padding-bottom:auto;
+    }
 
     &--container {
         display:flex;

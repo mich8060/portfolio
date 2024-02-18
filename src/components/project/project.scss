@@ -36,9 +36,29 @@
         }
     }
 
+
+    &--mobile { 
+        display:block;
+
+        @media screen and (min-width: $breakpoint--small) {
+            display:none;
+        }
+    }
+
+    &--desktop { 
+        display:none;
+
+        @media screen and (min-width: $breakpoint--small) {
+            display:block;
+        }
+    }
+
     &--image {
-        background:var(--base---black);
-        aspect-ratio: 19 / 7;
+        aspect-ratio: 3 / 2;
+
+        @media screen and (min-width: $breakpoint--small) {
+            aspect-ratio: 3 / 1;
+        }
 
         img {
              display:block;
@@ -103,6 +123,7 @@
             flex:1;
             max-width:700px;
             @include paragraph--small;
+            line-height:24px;
 
             @media screen and (min-width: $breakpoint--medium) {
                 @include paragraph--medium;

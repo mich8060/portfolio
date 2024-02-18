@@ -3,18 +3,19 @@ import './project.scss';
 
 import Button from '../button';
 
-function Project({title, excerpt, href, role, company, image}){
+function Project({type, title, excerpt, href, role, company, imageMobile, imageDesktop}){
 
 
 
     return(
         <div className="project">
             <div className="project--image">
-                <img src={image} alt={title} />
+                <div className="project--mobile"><img src={imageMobile} alt={title} /></div>
+                <div className="project--desktop"><img src={imageDesktop} alt={title} /></div>
             </div>
             <div className="project--info">
                 <div className="project--head">
-                    <small className="project--tag">Case Study</small>
+                    <small className="project--tag">{type}</small>
                     <strong className="project--title">{title}</strong>
                 </div>
                 <div className="project--text">

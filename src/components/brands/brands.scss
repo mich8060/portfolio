@@ -37,7 +37,7 @@
     }
 
     &--list {
-        column-gap: 24px;
+        column-gap: 32px;
         display:flex;
         flex-wrap: wrap;
         row-gap: 40px;
@@ -45,6 +45,26 @@
         @media screen and (min-width: $breakpoint--medium) {
             column-gap: 68px;
             row-gap: 40px;
+        }
+
+        svg {
+            height:75px;
+            width:75px;
+
+            @media screen and (min-width: $breakpoint--small) {
+                height:100px;
+                width:100px;
+            }
+
+            &.brands--long {
+                height:75px;
+                width:150px;
+
+                @media screen and (min-width: $breakpoint--small) {
+                    height:100px;
+                    width:200px;
+                }
+            }
         }
     }
 }

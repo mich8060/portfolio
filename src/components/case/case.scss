@@ -1,7 +1,10 @@
 @import '../../global';
 
 .case {
-    padding:24px;
+
+    @media screen and (min-width: $breakpoint--small) {
+        padding:24px;
+    }
 
     &--container {
         align-items: center;
@@ -14,13 +17,23 @@
     &--content {
         display:flex;
         flex-direction: column;
-        gap:48px;
+        gap:24px;
         max-width:1200px;
-        padding:100px 24px;
+        padding:60px 16px;
         width:100%;
 
+        @media screen and (min-width: $breakpoint--small) {
+            padding:100px 24px;
+            gap:48px;
+        }
+    
+
         h2 {
-            @include headline--large;
+            @include headline--small;
+
+            @media screen and (min-width: $breakpoint--small) {
+                @include headline--large;
+            }
         }
     }
 

@@ -4,14 +4,18 @@ function ProjectBroadcast(){
     return (
         <>
             <div className="details--visual">
-                <img src="/michael-stevens-project-broadcast-hero.png" alt="" />
+                <div className="details--desktop"><img src="/michael-stevens-project-broadcast-hero_desktop.png" alt="" /></div>
+                <div className="details--tablet"><img src="/michael-stevens-project-broadcast-hero_tablet.png" alt="" /></div>
+                <div className="details--mobile"><img src="/michael-stevens-project-broadcast-hero_mobile.png" alt="" /></div>
+                <div className="details--visual_left" style={{background:'#EEF2FE'}}></div>
+                <div className="details--visual_right" style={{background:'#F9FAFC'}}></div>
             </div>
             <div className="details--headline">
                 <h1>Project Broadcast: Steering the Brand Development Journey</h1>
                 <ul>
-                    <li>Role: Sole Designer & Product Manager</li>
-                    <li>Client: Project Broadcast</li>
-                    <li>Date: 2022-2024</li>
+                    <li><strong>Role:</strong> Sole Designer & Product Manager</li>
+                    <li><strong>Client:</strong> Project Broadcast</li>
+                    <li><strong>Date:</strong> 2022-2024</li>
                 </ul>
             </div>
             <Tab>

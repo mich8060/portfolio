@@ -8,15 +8,23 @@
     &--block {
         padding:24px 0 24px;
 
+        h2 {
+            margin-bottom:12px;
+            @include headline--xsmall;
+
+            @media screen and (min-width: $breakpoint--medium) {
+                @include headline--small;
+            }
+        }
+
         h3 {
             @include headline--xsmall;
             max-width:760px;
             padding:24px 0;
         }
 
-
         h4 {
-            font-size:18px;
+            font-size:14px;
             font-weight:500;
             line-height:120%;
             max-width:760px;
@@ -166,8 +174,12 @@
 
     &--container {
         max-width:1200px;
-        padding:24px;
+        padding:16px;
         width:100%;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            padding:24px;
+        }
     }
 
     &--frame {
@@ -179,11 +191,21 @@
     }
 
     &--headline {
-        padding:80px 0 12px;
+        padding:48px 0 12px;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            padding:80px 0 12px;
+        }
+
+
         h1 {
             color:var(--base---black);
             max-width:800px;
-            @include headline--large;
+            @include headline--small;
+
+            @media screen and (min-width: $breakpoint--medium) {
+                @include headline--large;
+            }
     
             span {
                 color:var(--sky--600);
@@ -193,11 +215,16 @@
         ul {
             color:var(--neutrals--600);
             display:flex;
+            flex-direction: column;
             gap:12px;
             list-style-type:none;
             margin:12px 0;
             padding:0;
             @include label--medium;
+
+            @media screen and (min-width: $breakpoint--medium) {
+                flex-direction: row;
+            }
 
             strong {
                 color: var(--base---black);
@@ -209,14 +236,16 @@
                 display:flex;
                 gap:12px;
 
-                &:before {
-                    content:"•";
-                    display:block;
-                }
-
-                &:first-child{
-                    &::before {
-                        display:none;
+                @media screen and (min-width: $breakpoint--medium) {
+                    &:before {
+                        content:"•";
+                        display:block;
+                    }
+    
+                    &:first-child{
+                        &::before {
+                            display:none;
+                        }
                     }
                 }
             }
@@ -231,8 +260,11 @@
         border-top:solid 4px var(--neutrals--200);
         color: var(--neutrals--700);
         line-height:24px;
-        flex: 0 0 300px;
         padding:20px 0;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            flex: 0 0 300px;
+        }
 
         h3 {
             @include headline--xsmall;
@@ -280,8 +312,13 @@
 
     &--inline {
         display:flex;
+        flex-direction: column;
         gap:24px;
         margin:24px 0;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            flex-direction: row;
+        }
 
         img {
             border:solid 1px var(--neutrals--200);
@@ -307,16 +344,78 @@
 
     &--visual {
         align-items: center;
-        background:var(--neutrals--100);
+        aspect-ratio: 3 / 2;
+        background-color:var(--neutrals--100);
         display:flex;
         justify-content: center;
         margin:0 calc(50% - 50vw);
+        overflow:hidden;
+        position:relative;
         width:100vw;
+
+        &_left {
+            height:100%;
+            margin:0 calc(50% - 50vw);
+            max-height:400px;
+            position:absolute;
+            width:100vw;
+        }
+
+        &_right {
+            height:100%;
+            max-height:400px;
+            position:absolute;
+            right: calc(50% - 50vw);
+            width:calc(100vw / 2);
+        }
+
+        @media screen and (min-width: $breakpoint--small) {
+            aspect-ratio: 3 / 1;
+        }
+
+        @media screen and (min-width: $breakpoint--medium) {
+            aspect-ratio: 4 / 1;
+            max-height:400px;
+        }
+
+        img {
+            position:relative;
+            z-index: 9;
+
+            @media screen and (min-width: $breakpoint--small) {
+                max-height:400px;
+            }
+        }
+
+        
     }
 
-    h2 {
-        margin-bottom:12px;
-        @include headline--small;
+    &--mobile { 
+        display:block;
+
+        @media screen and (min-width: $breakpoint--small) {
+            display:none;
+        }
+    }
+
+    &--tablet { 
+        display:none;
+
+        @media screen and (min-width: $breakpoint--small) {
+            display:block;
+        }
+
+        @media screen and (min-width: $breakpoint--medium) {
+            display:none;
+        }
+    }
+
+    &--desktop { 
+        display:none;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            display:block;
+        }
     }
 
 }
