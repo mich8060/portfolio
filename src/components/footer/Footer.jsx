@@ -1,6 +1,6 @@
 import './footer.scss';
 
-import Icons from '../icons/'
+import Icons from '../icons'
 
 function Footer(){
     return(
