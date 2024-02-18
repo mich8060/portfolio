@@ -2,7 +2,6 @@ function ProjectBroadcast(){
     return (
         <>
             <div className="details--visual">
-                
                 <div className="details--desktop"><img src="/michael-stevens-project-user-interviews-hero_desktop.png" alt="" /></div>
                 <div className="details--tablet"><img src="/michael-stevens-project-user-interviews-hero_tablet.png" alt="" /></div>
                 <div className="details--mobile"><img src="/michael-stevens-project-user-interviews-hero_mobile.png" alt="" /></div>

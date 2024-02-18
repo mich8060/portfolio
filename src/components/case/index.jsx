@@ -51,8 +51,9 @@ function Case(){
                                 excerpt="Integrating validated principles, templates, and methods into a self-guided living resource, this initiative empowered teams to iterate faster and gain more reliable insights."
                                 role="Principal Design Leader"
                                 company="Pluralsight"
-                                image="michael-stevens-unifed-design-system.png"
-                                imageDesktop="/case-studies/creating-a-unified-design-language"
+                                href="/case-studies/creating-a-unified-design-language"
+                                imageDesktop="michael-stevens-unified-design-language-card_desktop.png"
+                                imageMobile="michael-stevens-unified-design-language-card_mobile.png"
                             />
                         </li>
                     </ul>

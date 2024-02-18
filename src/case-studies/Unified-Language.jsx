@@ -4,7 +4,11 @@ function UnifiedLanguage(){
     return (
         <>
             <div className="details--visual" style={{background:"#0384C6"}}>
-                <img src="/michael-stevens-unified-design-language-hero.png" alt="" />
+                <div className="details--desktop"><img src="/michael-stevens-unified-design-language-hero_desktop.png" alt="" /></div>
+                <div className="details--tablet"><img src="/michael-stevens-unified-design-language-hero_tablet.png" alt="" /></div>
+                <div className="details--mobile"><img src="/michael-stevens-unified-design-language-hero_mobile.png" alt="" /></div>
+                <div className="details--visual_left" style={{background:'#0384C6'}}></div>
+                <div className="details--visual_right" style={{background:'#0384C6'}}></div>
             </div>
             <div className="details--headline">
                 <h1>Creating a Unified Design Language</h1>
