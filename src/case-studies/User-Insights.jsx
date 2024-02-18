@@ -21,29 +21,50 @@ function ProjectBroadcast(){
                 <p>A user interview blends observation and one-on-one questioning to glean insights into people's behaviors, habits, and differences.</p>
                 <div style={{height:24}}></div>   
                 <h2>Different Methods of User Interviews</h2>
-                <h4>Moderated Usability Testing</h4>
+                
+                <div className="details--inline">
+                    <div className="details--left"><img src="/michael-stevens-interview-types.png" alt="" /></div>
+                    <div className="details--right">A simple reference to the various kinds of interviews.</div>
+                </div>
+                <h3 style={{paddingBottom:0}}>Moderated Usability Testing</h3>
                 <p>Guided sessions where a facilitator collects feedback while users interact with the product.</p>
-                <h4>Unmoderated Usability Testing</h4>
+                <h3 style={{paddingBottom:0}}>Unmoderated Usability Testing</h3>
                 <p>Users independently test the product, and interactions are recorded for analysis.</p>
-                <h4>Testing Logic and Navigation</h4>
-                <p>Methods like card sorting and tree testing ensure a product's logic and navigation are intuitive.</p>
-                <h4>Design Testing</h4>
-                <p>Evaluates design elements through methods like A/B testing and eye-tracking.</p>
-                <h4>Diary Studies</h4>
-                <p>Participants document their experiences over time, providing valuable insights into the user experience.</p>
-                <div style={{height:48}}></div>   
+                <h3 style={{paddingBottom:0}}>Card Sorting</h3>
+                <p>For user-friendly menus, create and categorize action and product cards, asking users to arrange and label them. This testing method, using either physical or digital cards, offers insights into menu flow from the user's perspective.</p>
+                <h3 style={{paddingBottom:0}}>Tree Testing</h3>
+                <p>To assess navigation clarity, prompt users to locate specific items within the hierarchy. Difficulty finding topics signals areas for improvement. This method complements card sorting, forming a comprehensive feedback loop.</p>
+                <h3 style={{paddingBottom:0}}>Keystroke Level Modeling</h3>
+                <p>Predicts task completion times by breaking tasks into basic actions like keystrokes and mouse clicks, assigning each a time value based on data. Summing these values estimates total task time, aiding interface design optimization.</p>
+                <h3 style={{paddingBottom:0}}>Design Testing</h3>
+                <p>A collection of multiple tests aimed at evaluating various aspects of a design, including usability, functionality, visual appeal, and overall user experience. These tests provide valuable insights into how users interact with the design, identify potential issues or areas for improvement, and validate design decisions.</p>
+                <h3 style={{paddingBottom:0}}>A/B Testing</h3>
+                <p>Field testing involves randomly dividing users into two groups and presenting them with slightly different versions of the same content to determine which performs better. This online method requires a large number of responses to be statistically significant and can greatly impact ROI.</p>
+                <h3 style={{paddingBottom:0}}>First-click Testing</h3>
+                <p>This testing ensures that eye-catching elements align with user perception, taking only a few seconds and requiring users to indicate their initial click location to complete an action.</p>
+                <h3 style={{paddingBottom:0}}>Eye-tracking</h3>
+                <p>Akin to first-click analysis, determines user attention and engagement by generating a webpage heat map highlighting viewed areas, durations, ignored sections, and effects of color and size on attention. However, it necessitates specialized tracking equipment.</p>
+                <h3 style={{paddingBottom:0}}>Blur Tests</h3>
+                <p>Blur tests, combined with eye-tracking and first-click methods, evaluate design elements like calls to action (CTAs) for their ability to attract user attention through color and layout. They involve showing users a blurred website image, with success gauged by their ability to identify specific elements.</p>
+                <h3 style={{paddingBottom:0}}>Diary Studies</h3>
+                <p>Asking participants to keep a diary or journal documenting their experiences, interactions, and thoughts related to using a product or service over a specific period of time. Participants record their observations, feelings, frustrations, and successes as they engage with the product in their natural environment.</p>
+                <div style={{height:48}}></div>
+
+
                 <h2>What are the basics elements of every interview?</h2>
-                <h4>Give them something to do</h4>
+                <h3 style={{paddingBottom:0}}>Give them something to do</h3>
                 <p>Provide users with a specific task or activity to engage with, allowing them to interact with the product or service in a hands-on manner.</p>
-                <h4>Ask Questions</h4>
+                <h3 style={{paddingBottom:0}}>Ask Questions</h3>
                 <p>Engage in a conversation with users and pose questions aimed at gaining a deeper understanding of the challenges you both face together.</p>
-                <h4>Watch What Happens</h4>
+                <h3 style={{paddingBottom:0}}>Watch What Happens</h3>
                 <p>Observe closely as users interact with the task, paying attention to their actions, reactions, and any challenges they encounter along the way.</p>
-                <h4>Succeed, Hesitate or Fail</h4>
+                <h3 style={{paddingBottom:0}}>Succeed, Hesitate or Fail</h3>
                 <p>Notice if users breeze through, pause, or face challenges.</p>
-                <h4>Understanding</h4>
+                <h3 style={{paddingBottom:0}}>Understanding</h3>
                 <p>Try to understand what’s behind their behaviors</p>
                 <div style={{height:48}}></div>   
+
+
                 <h2>How do I recruit Participants?</h2>
                 <h3>Existing Users</h3>
                 <p>Utilizing your existing user base can be a convenient way to recruit participants for interviews. Here are some methods to reach out to them:</p>
@@ -71,7 +92,7 @@ function ProjectBroadcast(){
                 </ol>
                 <h2>Creating Interview Goals and Crafting a Discussion Guide</h2>
                 <p>Setting clear interview goals and crafting a structured discussion guide are essential steps in conducting effective one-on-one design research interviews. Here's how you can seamlessly integrate these processes:</p>
-                <h4>Defining Interview Goals:</h4>
+                <h3 style={{paddingBottom:0}}>Defining Interview Goals:</h3>
                 <div style={{height:24}}></div>   
                 <ol>
                     <li><strong>Identify Behavioral Patterns:</strong> Determine which behavioral patterns you aim to address through the interview process.</li>
@@ -79,7 +100,7 @@ function ProjectBroadcast(){
                     <li><strong>Consider Accessibility Concerns:</strong> Take into account any accessibility considerations that may impact the user experience and address them proactively.</li>
                     <li><strong>Set Performance Metrics:</strong> Establish metrics to measure the success of the interview process and evaluate user feedback.</li>
                 </ol>
-                <h4>Crafting a Discussion Guide:</h4>
+                <h3 style={{paddingBottom:0}}>Crafting a Discussion Guide:</h3>
                 <p>A discussion guide serves as a structured script to guide you through the interview smoothly. Follow this simple structure:</p>
                 <ol>
                     <li>
@@ -121,15 +142,19 @@ function ProjectBroadcast(){
                     </li>
                 </ol>
                 <p>By integrating interview goals with a structured discussion guide, you can conduct insightful design research interviews that yield valuable user feedback and drive product improvement.</p>
+ 
+
+                <div style={{height:48}}></div>   
+
                 <h2>The Art of Conducting an Interview</h2>
-                <h4>Assigning Interviewer Roles:</h4>
+                <h3 style={{paddingBottom:0}}>Assigning Interviewer Roles:</h3>
                 <div style={{height:24}}></div>   
                 <ol>
                     <li><strong>Interviewer:</strong> The primary role responsible for conducting the test, asking questions, and guiding the participant through the interview process.</li>
                     <li><strong>Scribe:</strong> Tasked with taking detailed notes if recording is not possible, ensuring that important insights and observations are documented.</li>
                     <li><strong>Observers:</strong> Individuals from the business with a stake in the test who wish to sit in on the interview to gather additional insights and perspectives.</li>
                 </ol>
-                <h4>Responses to Avoid During Interviews:</h4>
+                <h3 style={{paddingBottom:0}}>Responses to Avoid During Interviews:</h3>
                 <div style={{height:24}}></div>   
                 <ol>
                     <li>
@@ -154,7 +179,11 @@ function ProjectBroadcast(){
                         </ul>
                     </li>
                 </ol>
-                <h4>Types of Questions to Ask:</h4>
+                <h3 style={{paddingBottom:0}}>Types of Questions to Ask:</h3>
+                <div className="details--inline">
+                    <div className="details--left"><img src="/michael-stevens-types-of-questions.png" alt="" /></div>
+                    <div className="details--right">Quick Visual Reference</div>
+                </div>
                 <div style={{height:24}}></div>   
                 <ul>
                     <li><strong>Tasks:</strong> Prompt participants to demonstrate how they would complete specific actions or tasks within the product.</li>
@@ -166,6 +195,11 @@ function ProjectBroadcast(){
                     <li><strong>Peer Comparison:</strong> Explore how participants perceive others' experiences or behaviors in comparison to their own, uncovering social influences and norms.</li>
                     <li><strong>Expectation:</strong> Probe participants about their expectations or anticipated outcomes when interacting with the product, revealing discrepancies between expectation and reality.</li>
                 </ul>
+                <div className="details--inline">
+                    <div className="details--left"><img src="/michael-stevens-five-minute-madness.png" alt="" /></div>
+                    <div className="details--right">If you are struggling to come up with interview questions, this can be a fun game to help.</div>
+                </div>
+                <div style={{height:48}}></div>  
                 <h2>Reviewing the Interview</h2>
                 <p>Do this as soon as possible after the interview. Critical observations will be lost in your memory if you delay too long. Complete your personal notes and store all notes on the interview in a central location. If you recorded the session, consider transcribing it.</p>
                 <p>Discuss your first impressions based off the interview:</p>
