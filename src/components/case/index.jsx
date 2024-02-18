@@ -11,18 +11,6 @@ function Case(){
                         <li>
                             <Project 
                                 type="case study"
-                                title="Project Broadcast: Steering the Brand Development Journey" 
-                                excerpt="Explore the dynamic transformation of Project Broadcast's brand journey, guided by authentic user feedback and strategic insights. Witness firsthand how a mere concept evolved into a vibrant and impactful brand, showcasing the power of user-centered design."
-                                role="Sole Designer & Product Manager"
-                                company="Project Broadcast"
-                                href="/case-studies/project-broadcast-sterring-the-brand-development-journey"
-                                imageDesktop="michael-stevens-project-broadcast-card_desktop.png"
-                                imageMobile="michael-stevens-project-broadcast-card_mobile.png"
-                            />
-                        </li>
-                        <li>
-                            <Project 
-                                type="case study"
                                 title="The Story of Pluralsight's Homepage Evolution" 
                                 excerpt="Embark on a journey through the evolution of Pluralsight's homepage, where user-centric exploration, data-driven insights, and bold experimentation converge. Dive into the story behind the design decisions that reshaped the digital landscape."
                                 role="Sr. Product Designer"
@@ -30,6 +18,18 @@ function Case(){
                                 href="/case-studies/the-story-of-pluralsights-homepage-evolution"
                                 imageDesktop="michael-stevens-pluralsight-home-card_desktop.png"
                                 imageMobile="michael-stevens-pluralsight-home-card_mobile.png"
+                            />
+                        </li>
+                        <li>
+                            <Project 
+                                type="case study"
+                                title="Project Broadcast: Steering the Brand Development Journey" 
+                                excerpt="Explore the dynamic transformation of Project Broadcast's brand journey, guided by authentic user feedback and strategic insights. Witness firsthand how a mere concept evolved into a vibrant and impactful brand, showcasing the power of user-centered design."
+                                role="Sole Designer & Product Manager"
+                                company="Project Broadcast"
+                                href="/case-studies/project-broadcast-sterring-the-brand-development-journey"
+                                imageDesktop="michael-stevens-project-broadcast-card_desktop.png"
+                                imageMobile="michael-stevens-project-broadcast-card_mobile.png"
                             />
                         </li>
                         <li>
