@@ -204,7 +204,8 @@
             @include headline--small;
 
             @media screen and (min-width: $breakpoint--medium) {
-                @include headline--large;
+                @include headline--medium;
+                font-weight:600;
             }
     
             span {
