@@ -1,19 +1,17 @@
-@import '../../design';
+@import '../../global';
 
 .nav {
-    background:$white;
-    display:none;
-    margin-left: auto;
-
-    @include breakpoint(tablet) {
+    ul {
         display:flex;
-    }
-
-    a {
-        color:#2c2c2c;
-        display:block;
+        list-style-type: none;
         margin:0;
-        padding:0 20px;
-        text-transform: uppercase;
+        padding:0;
+
+        a {
+            color:var(--neutrals--600);
+            display:block;
+            padding:24px 20px;
+            @include label--medium;
+        }
     }
 }

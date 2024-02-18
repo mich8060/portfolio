@@ -1,0 +1,17 @@
+
+                        <li>
+                            <Project 
+                                title="The Usability Challenge: Sustaining Growth in Skullcandy's Shifting Style" 
+                                excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sapien nunc, consectetur sed semper at, placerat id nibh. Morbi a augue sit amet felis."
+                                role="Lead Product Designer, UI Designer, Developer"
+                                company="Skullcandy"
+                            />
+                        </li>
+                        <li>
+                            <Project 
+                                title="Rethinking Navigation: Enhancing User Confidence Down the Funnel" 
+                                excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sapien nunc, consectetur sed semper at, placerat id nibh. Morbi a augue sit amet felis."
+                                role="Lead Product Designer, UI Designer, Developer"
+                                company="Backcountry.com"
+                            />
+                        </li>

@@ -1,0 +1,47 @@
+@import '../../global';
+
+.article {
+    background:var(--base---white);
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    min-height:440px;
+    padding:30px 24px;
+    position:relative;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.025);
+    }
+
+    small {
+        color: var(--neutrals--400);
+        font-size:12px;
+        font-weight: 600;
+        letter-spacing:0.5px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    strong {
+        @include headline--medium;
+    }
+
+    p {
+        color:var(--neutrals--600);
+        flex:1;
+        @include paragraph--medium;
+    }
+
+    a {
+        bottom:0;
+        left:0;
+        position:absolute;
+        right:0;
+        top:0;
+    }
+
+    button {
+        width: fit-content;
+    }
+}

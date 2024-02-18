@@ -1,0 +1,30 @@
+@import '../../global';
+
+.thinking {
+    padding:24px;
+
+    &--container {
+        align-items: center;
+        background:var(--neutrals--100);
+        display:flex;
+        justify-content: center;
+        min-height:600px;
+    }
+
+    &--content {
+        display:flex;
+        flex-direction: column;
+        gap:48px;
+        max-width:1200px;
+        padding:100px 24px;
+        width:100%;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            padding:100px 24px;
+        }
+
+        h2 {
+            @include headline--large;
+        }
+    }
+}

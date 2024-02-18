@@ -1,0 +1,60 @@
+@import '../../global';
+
+.work {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+    &--column {
+        flex:1;
+        max-width:448px;
+    }
+
+    &--container {        
+        display:flex;
+        flex-direction: column;
+        gap:40px;
+        max-width:1200px;
+        padding:0 24px;
+        width:100%;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            flex-direction: row;
+        }
+
+    }
+
+    small {
+        display:block;
+        font-size:12px;
+        font-weight:600;
+        letter-spacing: 2px;
+        margin-bottom:24px;
+        text-transform: uppercase;
+    }
+    
+    ul { 
+        display:flex;
+        flex-direction: column;
+        gap:24px;
+        list-style-type: none;
+        margin:0 0 48px 0;
+        padding:0;
+    }
+
+    li {
+        color:var(--neutrals--600);
+        line-height:24px;
+        margin:0;
+        padding:0;
+    }
+
+    strong {
+        color:var(--base---black);
+        display:block;
+        font-weight: 600;
+        font-size:18px;
+        line-height: 24px;
+        margin:0 0 4px 0;
+    }
+}

@@ -1,0 +1,275 @@
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Thin.ttf");
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Light.ttf");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Medium.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Semibold.ttf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Bold.ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Black.ttf");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("./assets/fonts/GraphikLCG-Super.ttf");
+	font-weight: 900;
+}
+
+/* Headlines */
+
+@mixin headline--xxlarge {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: -2px;
+}
+  
+@mixin headline--xlarge {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -2px;
+}
+  
+@mixin headline--large {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -1px;
+}
+  
+@mixin headline--medium {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+}
+  
+@mixin headline--small {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.75px;
+}
+  
+@mixin headline--xsmall {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+  
+@mixin headline--xxsmall {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+  
+/* Paragraphs */
+  
+@mixin paragraph--xlarge {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+  
+@mixin paragraph--large {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+  
+@mixin paragraph--medium {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+  
+@mixin paragraph--small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+  
+@mixin paragraph--xsmall { 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+  
+/* Labels */
+  
+@mixin label--xlarge__base {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+  
+@mixin label--xlarge { @include label--xlarge__base; font-weight: 400; }
+@mixin label--xlarge__medium { @include label--xlarge__base; font-weight: 500; }
+@mixin label--xlarge__strong { @include label--xlarge__base; font-weight: 700; }
+  
+@mixin label--large__base {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+  
+@mixin label--large { @include label--large__base; font-weight: 400; }
+@mixin label--large__medium { @include label--large__base; font-weight: 500; }
+@mixin label--large__strong { @include label--large__base; font-weight: 700; }
+  
+@mixin label--medium__base {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+  
+@mixin label--medium { @include label--medium__base; font-weight: 400; }
+@mixin label--medium__medium { @include label--medium__base; font-weight: 500; }
+@mixin label--medium__strong { @include label--medium__base; font-weight: 700; }
+  
+@mixin label--small__base { 
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+  
+@mixin label--small { @include label--small__base; font-weight: 400; }
+@mixin label--small__medium { @include label--small__base; font-weight: 500; }
+@mixin label--small__strong { @include label--small__base; font-weight: 700; }
+  
+@mixin label--xsmall__base {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+  
+@mixin label--xsmall { @include label--xsmall__base; font-weight: 400; }
+@mixin label--xsmall__medium { @include label--xsmall__base; font-weight: 500; }
+@mixin label--xsmall__strong { @include label--xsmall__base; font-weight: 700; }
+  
+
+/* Design System Colors */
+:root {
+    --base---white: #FFFFFF;
+    --base---black: #000000;
+    --base---primary: #0384C6;
+    --neutrals--50: #F9FAFC;
+    --neutrals--100: #F3F4F6;
+    --neutrals--200: #E6E7EB;
+    --neutrals--300: #D2D5DC;
+    --neutrals--400: #9CA2AE;
+    --neutrals--500: #6B7380;
+    --neutrals--600: #4C5564;
+    --neutrals--700: #384152;
+    --neutrals--800: #202938;
+    --neutrals--900: #111828;
+    --sky--50: #F0F9FF;
+    --sky--100: #E0F2FE;
+    --sky--200: #BAE7FE;
+    --sky--300: #7ED3FC;
+    --sky--400: #38BDF8;
+    --sky--500: #0EA5EA;
+    --sky--600: #0384C6;
+    --sky--700: #0469A1;
+    --sky--800: #075A86;
+    --sky--900: #0C4A6F;
+    --utility---overlay-1: #202938;
+    --utility---overlay-2: #202938;
+
+    --shadow--standard:  2px 4px 9px rgba(187, 187, 187, 0.3);
+    --shadow--extreme:  2px 4px 9px rgba(0, 0, 0, 0.4);
+    --border--bottom:  0px 1px 0px rgba(230, 231, 235, 1);
+    --border--left:  -1px 0px 0px rgba(230, 231, 235, 1);
+    --border--right:  1px 0px 0px rgba(230, 231, 235, 1);
+    --border--top:  0px -1px 0px rgba(230, 231, 235, 1);
+}
+
+$breakpoint--xlarge: 1280px;
+$breakpoint--large: 1200px;
+$breakpoint--medium: 1024px;
+$breakpoint--small: 768px;
+$breakpoint--xsmall: 600px;
+
+h1, h2, h3, h4, h5, h6, p { margin:0; padding:0; }
+
+* { box-sizing: border-box; }
+
+html,
+body {
+	font-family: 'Graphik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color:var(--sky--600);
+    text-decoration: none;
+
+    &:hover {
+        color:var(--sky--600);
+    }
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.listview {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:32px;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+
+    @media screen and (min-width: $breakpoint--medium) {
+        flex-direction: row;
+    }
+
+    li {
+        width:100%;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            width:calc(34.2% - 32px);
+        }
+    }
+}

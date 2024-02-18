@@ -1,0 +1,41 @@
+@import '../../global';
+
+.footer {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+    &--contact {
+
+
+        a {
+            color: var(--neutral--600);
+        }
+    }
+
+    &--container {
+        display:flex;
+        flex-direction: column;
+        gap:48px;
+        max-width:1200px;
+        padding:100px 24px;
+        width:100%;
+    }
+
+    &--headline {
+        @include headline--large;
+        max-width:600px;
+    }
+
+    &--social {
+        display:flex;
+        gap:20px;
+        margin:0;
+        padding:0;
+        list-style-type: none;
+
+        a {
+            color: var(--neutral--600);
+        }
+    }
+}

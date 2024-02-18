@@ -1,0 +1,50 @@
+@import '../../global';
+
+.brands {
+    padding:24px 8px;   
+
+    @media screen and (min-width: $breakpoint--medium) {
+        padding:24px;   
+    }
+
+    &--container {    
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        min-height:600px;
+    }
+
+    &--content {
+        display:flex;
+        flex-direction: column;
+        gap:48px;
+        max-width:1200px;
+        padding:48px 24px;
+        width:100%;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            padding:100px 24px; 
+        }
+
+        h2 {
+            max-width:780px;
+            @include headline--medium;
+
+            @media screen and (min-width: $breakpoint--medium) {
+                @include headline--large;
+            }
+        }
+    }
+
+    &--list {
+        column-gap: 24px;
+        display:flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            column-gap: 68px;
+            row-gap: 40px;
+        }
+    }
+}

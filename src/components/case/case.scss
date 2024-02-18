@@ -1,0 +1,39 @@
+@import '../../global';
+
+.case {
+    padding:24px;
+
+    &--container {
+        align-items: center;
+        background:var(--neutrals--100);
+        display:flex;
+        justify-content: center;
+        min-height:600px;
+    }
+
+    &--content {
+        display:flex;
+        flex-direction: column;
+        gap:48px;
+        max-width:1200px;
+        padding:100px 24px;
+        width:100%;
+
+        h2 {
+            @include headline--large;
+        }
+    }
+
+    &--list {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:32px;
+        list-style-type: none;
+        margin:0;
+        padding:0;
+
+        li {
+        }
+    }
+}

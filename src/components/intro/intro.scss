@@ -1,13 +1,42 @@
+@import '../../global';
+
 .intro {
     align-items: center;
-    background:#000;
-    color:#fff;
     display:flex;
-    height:100vh;
-    flex:0 0 auto;
     justify-content: center;
-    min-height: 660px;
-    padding:60px 0 30px;
-    position:relative;
-    width:100vw;
+    height:600px;
+    padding-top:80px;
+
+    &--container {
+        display:flex;
+        flex-direction: column;
+        gap:16px;
+        max-width:1200px;
+        padding:0 24px;
+        width:100%;
+    }
+
+    h1 {
+        color:var(--base---black);
+        max-width:940px;
+        @include headline--medium;
+
+        span {
+            color:var(--sky--600);
+        }
+
+        @media screen and (min-width: $breakpoint--medium) {
+            @include headline--xxlarge;
+        }
+    }
+
+    p { 
+        color:var(--neutrals--600);
+        max-width:800px;
+        @include paragraph--large;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            @include paragraph--xlarge;
+        }
+    }
 }
