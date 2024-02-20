@@ -16,13 +16,13 @@ function Work({children}){
                         <li><strong>Graphic Designer</strong> Backcountry.com – July 2006 - April 2008</li>
                         <li><strong>Front End Developer</strong> Backcountry.com – March 2004 - July 2006</li>
                     </ul>
-                </div>
-                <div className="work--column">
                     <small>Education</small>
                     <ul>
                         <li><strong>Weber State University</strong> BFA, Visual Communications</li>
-                        <li><strong>Ogden Applied Technology College</strong> Technical Associates Degree, Multimedia & Web Development</li>
+                        <li><strong>Ogden Applied Technology College</strong> Multimedia Design</li>
                     </ul>
+                </div>
+                <div className="work--column">
                     <small>Skills</small>
                     <ul>
                         <li><strong>User Experience Design</strong> Figma, Figma Prototyping, Responsive Wireframing, Prototyping, User Flows, Journey Mapping, Interaction Design, Design System Creation & Management.</li>
