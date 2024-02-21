@@ -54,7 +54,7 @@ function UnifiedLanguage(){
                         <div style={{height:48}}></div>
                         <h2>Phase I: Define</h2>
                         <p>Our main objective in the define phase was to create a toolkit of standardized resources that teams could utilize. The toolkit comprises essential elements crucial for defining the scope and objectives of your project, laying the foundation for all subsequent phases. </p>
-                        <p>We started by identitying specific actions that when taken had proven successful. Once we had our list of actions we divided them in to essential, supplimental, and recommended actions. </p>
+                        <p>We started by identitying specific actions that when taken had proven successful. Once we had our list of actions we divided them in to essential, supplemental, and recommended actions. </p>
                         <div className="details--boxes">
                             <div className="details--box" style={{padding:"8px 24px 16px"}}>
                                 <h4>Essential Actions</h4>
@@ -157,13 +157,13 @@ function UnifiedLanguage(){
                         </div>
                         <div className="details--boxes">
                             <div className="details--box" style={{padding:"8px 24px 16px"}}>
-                                <h4>Supplimental actions</h4>
+                                <h4>Supplemental actions</h4>
                                 <p>These are actions that didn't apply to every project, but that might be helpful tools.</p>
                             </div>
                         </div>
                         <div style={{height:24}}></div>
                         <div className="details--frame">
-                            <small><strong>Supplimental Actions Sample:</strong></small>
+                            <small><strong>Supplemental Actions Sample:</strong></small>
                             <div className="details--card">
                                 <strong>Design benchmark</strong>
                                 <p>Analyze the landscape of similar and complementary products, design patterns and technologies used in the industry, contribute to positioning the new product.</p>
