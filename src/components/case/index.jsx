@@ -56,6 +56,17 @@ function Case(){
                                 imageMobile="michael-stevens-unified-design-language-card_mobile.png"
                             />
                         </li>
+                        <li>
+                            <Project 
+                                type="case study"
+                                title="The Usability Challenge: Sustaining Growth in Skullcandy's Shifting Style" 
+                                excerpt="Coming Soon...."
+                                role="Sole Product Designer"
+                                company="Skullcandy"
+                                imageDesktop="michael-stevens-skullcandy-card_desktop.png"
+                                imageMobile="michael-stevens-skullcandy-card_mobile.png"
+                            />
+                        </li>
                     </ul>
                 </div>
             </div>
