@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './parallax.scss';
 
 const Parallax = ({ lead, title, content }) => {
+    const cardRef = useRef(null);
+
+    const handleTouchStart = () => {
+        cardRef.current.classList.toggle('hover');
+    };
+
+    const handleBlur = () => {
+        cardRef.current.blur();
+    };
+
     return (
       <div className="parallax">
-            <div className="parallax--card" onTouchStart="this.classList.toggle('hover')">
+            <div 
+                className="parallax--card" 
+                onTouchStart={handleTouchStart} 
+                onBlur={handleBlur} 
+                tabIndex="0" 
+                ref={cardRef}
+            >
                 <div className="parallax--container">
                     <div className="parallax--front">
                         <div className="parallax--inner">
@@ -28,7 +44,5 @@ const Parallax = ({ lead, title, content }) => {
       </div>
     );
 }
-  
 
 export default Parallax;
-

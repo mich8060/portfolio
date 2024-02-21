@@ -3,7 +3,11 @@
 
 .parallax {
     cursor:pointer;
-    width:calc(50% - 12px);
+    width:100%;
+
+    @media screen and (min-width: $breakpoint--medium) {
+        width:calc(50% - 12px);
+    }
 
     &--container {
         perspective: 1000px;
