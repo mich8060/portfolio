@@ -1,0 +1,17 @@
+@import '../../global';
+
+.expand {
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    margin-top:4px;
+
+    label {
+        color:var(--sky--600);
+        @include label--small__medium;
+    }
+
+    ol,ul {
+        @include paragraph--medium;
+    }
+}

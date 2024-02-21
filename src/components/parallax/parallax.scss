@@ -1,0 +1,127 @@
+@import '../../global';
+
+
+.parallax {
+    cursor:pointer;
+    width:calc(50% - 12px);
+
+    &--container {
+        perspective: 1000px;
+        transform-style: preserve-3d;
+
+        .parallax {
+
+            &--back {
+                transform: rotateY(180deg);
+                transform-style: preserve-3d;
+            }
+
+            &--front {
+                transform: rotateY(0deg);
+                transform-style: preserve-3d;
+            }
+
+        }
+
+        &:hover {
+            .parallax {
+                &--back,
+                &--front {
+                    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+                }
+
+                &--back {
+                    transform: rotateY(0deg);
+                    transform-style: preserve-3d;
+                }
+
+                &--front {
+                    transform: rotateY(-180deg);
+                    transform-style: preserve-3d;
+                }
+
+            }
+        }
+    }
+
+    &--back,
+    &--front {
+        background: var(--base---white);
+        backface-visibility: hidden;
+        background-position: center;
+        border:solid 1px var(--neutrals--300);
+        border-radius:8px;
+        color: var(--base---black);
+        height: auto;
+        min-height: 150px;
+        text-align: center;
+        transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    }
+
+    &--back {
+        background: var(--base---white);
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        p {
+            font-size:16px;
+            line-height:24px;
+            margin:0;
+            padding:0;
+            position: relative;
+        }
+
+        .parallax {
+            &--inner {
+                padding: 12px 16px;
+            }
+        }
+    }
+
+    &--front {
+        p {
+            color:var(--base---black);
+            font-size:20px;
+            font-weight:600;
+            line-height:24px;
+            margin:0 0 4px 0;
+            padding:0;
+            position: relative;
+        }
+
+        span {
+            color:var(--neutrals--700);
+        }
+
+        .parallax {
+            &--inner {
+                padding:24px;
+            }
+        }
+    }
+
+    &--icon {
+        align-items: center;
+        bottom:8px;
+        display:flex;
+        display:none;
+        gap:4px;
+        position:absolute;
+        right:8px;
+        @include label--small;
+    }
+
+    &--inner {
+        transform: translateY(-50%) translateZ(60px) scale(0.94);
+        top: 50%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        outline: 1px solid transparent;
+        perspective: inherit;
+        z-index: 2;
+    }
+}

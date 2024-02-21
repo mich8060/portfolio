@@ -152,6 +152,22 @@
         padding:24px;
         flex:0 0 auto;
 
+        h3 {
+            font-size:20px;
+            font-weight:500;
+            margin:0;
+            padding:0;
+
+            &::after {
+                background:var(--neutrals--200);
+                content:"";
+                display:block;
+                height:2px;
+                margin-top:16px;
+                width:80px;
+            }
+        }
+
         h4 {
             font-size:28px;
             font-weight:500;
@@ -168,6 +184,8 @@
 
         p {
             color: var(--neutrals--600);
+            margin:0;
+            padding:0;
             @include paragraph--medium;
         }
     }
@@ -179,6 +197,50 @@
 
         @media screen and (min-width: $breakpoint--medium) {
             padding:24px;
+        }
+    }
+
+    &--example {
+        align-items: center;
+        background:var(--neutrals--50);
+        border: solid 1px var(--neutrals--300);
+        border-radius:4px;
+        color: var(--neutrals--600);
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: column;
+        font-size: 16px;
+        justify-content: center;
+        line-height: 24px;
+        padding: 24px;
+        position: relative;
+        text-align: center;
+
+        strong { margin:4px 0; }
+    }
+
+    &--exampleLabel {
+        background: var(--base---white);
+        border: solid 1px var(--neutrals--300);
+        border-radius: 2px;
+        color: var(--base---black);
+        font-size: 14px;
+        font-weight: 600;
+        left: 12px;
+        line-height: 14px;
+        padding: 4px 8px;
+        position: absolute;
+        top: -12px;
+    }
+
+    &--exampleWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 12px 0px;
+
+        @media screen and (min-width: $breakpoint--medium) {
+            flex-direction: row;
         }
     }
 

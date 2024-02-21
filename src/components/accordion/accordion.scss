@@ -1,0 +1,29 @@
+/* Accordion styles */
+.accordion-title {
+    align-items: center;
+    border-bottom: 1px solid var(--neutrals--200);
+    color:var(--base---black);
+    cursor: pointer;
+    display: flex;
+    max-width:760px;
+    padding: 12px 0;
+  }
+
+  .accordion-label {
+    font-size:18px;
+    font-weight: 500;
+  }
+  
+  .accordion-icon {
+    margin-left: auto;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 24px 0;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  

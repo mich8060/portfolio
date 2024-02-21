@@ -1,8 +1,8 @@
 import './button.scss';
 
-function Button({label, tabindex}){
+function Button({label, tabindex, onClick}){
     return(
-        <button className="button" tabindex={tabindex}>{label}</button>
+        <button className="button" tabindex={tabindex} onClick={onClick}>{label}</button>
     )
 }
 
