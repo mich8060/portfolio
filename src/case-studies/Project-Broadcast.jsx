@@ -46,7 +46,7 @@ function ProjectBroadcast(){
                             <p>In poring over the messages and interactions of our users, a striking pattern emerged – the pervasive use of emojis to inject personality and vibrancy into their communication. It was a revelation that resonated deeply with me, sparking a realization that our brand needed to mirror the dynamic and spirited essence of our audience.</p>
                             <p>So, with this new insight, I set out to make our brand more exciting. Instead of dull colors, I used bright ones and added fun designs, like basic shapes that looked like emojis. Every detail was carefully chosen to make people feel energized and happy when they used our platform.</p>
                             <div className="details--inline">
-                                <div className="details--left"><iframe src="/Project-Broadcast-Brandbook.pdf" width="100%" height="600px"></iframe></div>
+                                <div className="details--left"><iframe title="Project Broadcast Brandbook" src="/Project-Broadcast-Brandbook.pdf" width="100%" height="600px"></iframe></div>
                                 <div className="details--right">As I worked I began to assemble a brand book to capature everything from the look, tone and feel of the site, but also to capture the why around Project Broadcast.</div>
                             </div>
                             <div style={{height:24}}></div>
@@ -66,7 +66,7 @@ function ProjectBroadcast(){
                             <h2>Crafting the Marketing Site</h2>
                             <p>Designing our marketing site was like piecing together a puzzle—a fun challenge that required careful planning and creativity.  After analyzing our competitors' sites, I noticed certain patterns that seemed to repeat consistently throughout our industry. It was like finding pieces of a puzzle that fit perfectly with our vision. I set out to create a website that not only captured the essence of our brand but also spoke the language of our users.</p>
                             <div className="details--inline">
-                                <div className="details--left"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4NlDsARD_edejzXxmurq7DvNAZndcUaN5F5Mt3yavBIoFRw4ayFi6evojov8EFP7DERl6awcxAOA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600px"></iframe></div>
+                                <div className="details--left"><iframe title="Competitive Analysis" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4NlDsARD_edejzXxmurq7DvNAZndcUaN5F5Mt3yavBIoFRw4ayFi6evojov8EFP7DERl6awcxAOA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600px"></iframe></div>
                                 <div className="details--right">The analysis focused on everything from the way they organized their navigation, to the features and resources they provided their customers.</div>
                             </div>
                             <div style={{height:24}}></div>
@@ -96,7 +96,7 @@ function ProjectBroadcast(){
             </Tab>
 
             <div className="details--figma">
-                <iframe style={{border:"1px solid rgba(0, 0, 0, 0.1)"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3XbTNGpH7b3qYf6t9ryROb%2FProject-Broadcast%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DprOE6WI4pTEoVmzx-1" allowfullscreen></iframe>
+                <iframe title="Figma Designs" style={{border:"1px solid rgba(0, 0, 0, 0.1)"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3XbTNGpH7b3qYf6t9ryROb%2FProject-Broadcast%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DprOE6WI4pTEoVmzx-1" allowfullscreen></iframe>
             </div>
         </>
     );

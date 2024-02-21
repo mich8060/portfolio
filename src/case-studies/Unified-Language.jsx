@@ -93,7 +93,7 @@ function UnifiedLanguage(){
                                     <li>Define their role in the project</li>
                                     <li>Share a cohesive vision</li>
                                 </ul>
-                                <a href="https://asana.com/resources/rapid-decision-making" target="_blank">
+                                <a href="https://asana.com/resources/rapid-decision-making" target="_blank" rel="noreferrer">
                                     <img src="/michael-stevens-external.png" alt="" width="16px" />
                                     RAPID Framework
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +142,7 @@ function UnifiedLanguage(){
                                     <li>Determine which needs are unmet</li>
                                     <li>Segment customers with unique sets of unmet needs</li>
                                 </ul>
-                                <a href="https://jobs-to-be-done.com/" target="_blank">
+                                <a href="https://jobs-to-be-done.com/" target="_blank" rel="noreferrer">
                                     <img src="/michael-stevens-external.png" alt="" width="16px" />
                                     Jobs-to-be-done
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,7 +234,7 @@ function UnifiedLanguage(){
                                     <li>Uses Pluralsight Design System components for basic UI building blocks</li>
                                     <li>Type styles and colors adhere to the styles and colors in the Design System</li>
                                 </ul>
-                                <a href="https://design-system.pluralsight.com/" target="_blank">
+                                <a href="https://design-system.pluralsight.com/" target="_blank" rel="noreferrer">
                                     <img src="/michael-stevens-external.png" alt="" width="16px" />
                                     Pluralsight Design System
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +277,7 @@ function UnifiedLanguage(){
                                     <li>Meet regularly with your Product Marketing counterpart and keep them informed of any products you might have coming.</li>
                                     <li>Do your changes impact how someone will navigate or sell the product? If so, coordination with product marketing will help communicate these changes throughout the business.</li>
                                 </ul>
-                                <a href="https://design-system.pluralsight.com/" target="_blank">
+                                <a href="https://design-system.pluralsight.com/" target="_blank" rel="noreferrer">
                                     <img src="/michael-stevens-external.png" alt="" width="16px" />
                                     Pluralsight Design System
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -322,7 +322,7 @@ function UnifiedLanguage(){
                 </TabPanel>
             </Tab>
             <div className="details--figma">
-                <iframe style={{border:"1px solid rgba(0, 0, 0, 0.1)"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FtYkhfvM8CGmsBMAMbimr2R%2FUnified-Design-Language%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DZUUORFWmaW5ygdF6-1" allowfullscreen></iframe>
+                <iframe title="Figma Designs" style={{border:"1px solid rgba(0, 0, 0, 0.1)"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FtYkhfvM8CGmsBMAMbimr2R%2FUnified-Design-Language%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DZUUORFWmaW5ygdF6-1" allowfullscreen></iframe>
             </div>
         </>
     );

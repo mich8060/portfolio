@@ -1,4 +1,3 @@
-import Article from '../components/article';
 import Case from "../components/case";
 import Intro from "../components/intro";
 import Brands from "../components/brands";
