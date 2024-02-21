@@ -47,7 +47,7 @@ function EnhanceExperience(){
                     <h3>Project</h3>
                     <p>Adapted from an article written for Project Broadcast</p>
                     <h3>Client</h3>
-                    <p><a href="https://www.projectbroadcast.com" target="_blank">Project Broadcast</a></p>
+                    <p><a href="https://www.projectbroadcast.com" target="_blank" rel="noreferrer">Project Broadcast</a></p>
                     <h3>Date</h3>
                     <p>2023</p>
                 </div>

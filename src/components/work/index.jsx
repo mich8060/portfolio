@@ -8,7 +8,8 @@ function Work({children}){
                     <small>Experience</small>
                     <ul>
                         <li><strong>Principal Product Designer</strong> Project Broadcast – April 2022 to Feb 2024</li>
-                        <li><strong>Principal & Sr. Product Designer</strong> Pluralsight.com – June 2016 to April 2022</li>
+                        <li><strong>Principal Product Designer</strong> Pluralsight.com – June 2021 to April 2022</li>
+                        <li><strong>Sr. Product Designer</strong> Pluralsight.com – June 2016 to June 2021</li>
                         <li><strong>Sr. UX Designer & Manager</strong> Backcountry.com – June 2012 to July 2016</li>
                         <li><strong>Interim Product Manager</strong> Backcountry.com – December 2012 - June 2013</li>
                         <li><strong>Sr. User Experience Designer</strong> Skullcandy – July 2011 - June 2012</li>

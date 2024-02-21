@@ -6,6 +6,7 @@ import ProjectBroadcast from '../case-studies/Project-Broadcast';
 import HomepageEvolution from '../case-studies/Homepage-Evolution';
 import UserInsights from '../case-studies/User-Insights';
 import UnifiedLanguage from '../case-studies/Unified-Language';
+import Skullcandy from '../case-studies/Skullcandy'
 
 function CaseStudies(){
     const { articleName } = useParams();
@@ -19,6 +20,8 @@ function CaseStudies(){
                 return <UserInsights />
             case 'creating-a-unified-design-language':
                 return <UnifiedLanguage />
+            case 'sustaining-growth-in-skullcandys-shifting-style':
+                return <Skullcandy />
             default:
                 return <p>Case Study Not Found</p>;
         }
