@@ -14,9 +14,9 @@ function ProjectBroadcast(){
             <div className="details--headline">
                 <h1>Unlocking User Insights: A Guide to Effective User Interviews</h1>
                 <ul>
-                    <li>Role: Author, Researcher & Speaker</li>
-                    <li>Client: Owlet</li>
-                    <li>Date: 2022</li>
+                    <li><strong>Role:</strong> Author, Researcher & Speaker</li>
+                    <li><strong>Client:</strong> Owlet, Workshop</li>
+                    <li><strong>Date:</strong> 2022</li>
                 </ul>
             </div>
             <div className="details--block">
@@ -321,17 +321,38 @@ function ProjectBroadcast(){
                 <h2>Reviewing the Interview</h2>
                 <p>Do this as soon as possible after the interview. Critical observations will be lost in your memory if you delay too long. Complete your personal notes and store all notes on the interview in a central location. If you recorded the session, consider transcribing it.</p>
                 <p>Discuss your first impressions based off the interview:</p>
-                <ul>
-                    <li><strong>Surprising Findings:</strong> Note anything unexpected or surprising that emerged during the interview. These could be insights that challenge your assumptions or shed new light on the problem at hand.</li>
-                    <li><strong>New Insights:</strong> Identify any fresh perspectives or ideas that came to light during the interview. These could be innovative solutions, user behaviors, or needs that you hadn't previously considered.</li>
-                    <li><strong>Alignment with Expectations:</strong> Evaluate whether the interview outcomes align with your initial expectations or hypotheses. Recognize any areas where your assumptions were validated and where they may need adjustment based on the user feedback.</li>
-                </ul>
+                <div className="details--boxes">
+                    <div className="details--box">
+                        <h3>Surprising Findings</h3>
+                        <p>Note anything unexpected or surprising that emerged during the interview. These could be insights that challenge your assumptions or shed new light on the problem at hand.</p>
+                    </div>
+                    <div className="details--box">
+                        <h3>New Insights</h3>
+                        <p>Identify any fresh perspectives or ideas that came to light during the interview. These could be innovative solutions, user behaviors, or needs that you hadn't previously considered.</p>
+                    </div>
+                    <div className="details--box">
+                        <h3>Alignment with Expectations</h3>
+                        <p>Evaluate whether the interview outcomes align with your initial expectations or hypotheses. Recognize any areas where your assumptions were validated and where they may need adjustment based on the user feedback.</p>
+                    </div>
+                </div>
+                <div style={{height:24}}></div>  
                 <p>After processing your impressions, proceed to create interview summaries:</p>
-                <ul>
-                    <li><strong>Summarize Key Points:</strong> Condense the main findings and observations from the interview into a concise summary. Highlight the most significant insights, trends, or patterns that emerged.</li>
-                    <li><strong>Extract Quotes and Reactions:</strong> Pull out compelling quotes, noteworthy reactions, or impactful moments from the interview. These can serve as powerful anecdotes to illustrate key points or user experiences.</li>
-                    <li><strong>Present to Stakeholders:</strong> Share the interview summaries, quotes, and reactions with relevant stakeholders. Emphasize positive reactions and insights that demonstrate the value of the research findings.</li>
-                </ul>
+                <div style={{height:16}}></div>  
+                <div className="details--boxes">
+                    <div className="details--box">
+                        <h3>Summarize Key Points</h3>
+                        <p>Condense the main findings and observations from the interview into a concise summary. Highlight the most significant insights, trends, or patterns that emerged.</p>
+                    </div>
+                    <div className="details--box">
+                        <h3>Extract Quotes and Reactions</h3>
+                        <p>Pull out compelling quotes, noteworthy reactions, or impactful moments from the interview. These can serve as powerful anecdotes to illustrate key points or user experiences.</p>
+                    </div>
+                    <div className="details--box">
+                        <h3>Present to Stakeholders</h3>
+                        <p>Share the interview summaries, quotes, and reactions with relevant stakeholders. Emphasize positive reactions and insights that demonstrate the value of the research findings.</p>
+                    </div>
+                </div>
+                <div style={{height:24}}></div>  
                 <p>Remember that interviews don’t just happen during the interview, they are everything that comes before, during and after.</p>
                 <div style={{height:48}}></div>   
                 <h2>Helpful Hints:</h2>

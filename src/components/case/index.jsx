@@ -34,11 +34,11 @@ function Case(){
                         </li>
                         <li>
                             <Project 
-                                type="case study"
+                                type="Article"
                                 title="Unlocking User Insights: A Guide to Effective User Interviews" 
                                 excerpt="Discover the art of effective user interviews in our comprehensive case study. Learn proven methods, recruitment strategies, and interview techniques to unlock valuable insights for your product design process."
                                 role="Author, Researcher & Speaker"
-                                company="Owlet"
+                                company="Owlet, Workshop"
                                 href="/case-studies/unlocking-user-insights-a-guide-to-effective-user-interviews"
                                 imageDesktop="michael-stevens-project-user-interviews-card_desktop.png"
                                 imageMobile="michael-stevens-project-user-interviews-card_mobile.png"
