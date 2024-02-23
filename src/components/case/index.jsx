@@ -60,9 +60,10 @@ function Case(){
                             <Project 
                                 type="case study"
                                 title="The Usability Challenge: Sustaining Growth in Skullcandy's Shifting Style" 
-                                excerpt="Coming Soon...."
-                                role="Sole Product Designer"
+                                excerpt="Join us on a journey through the dynamic landscape of Skullcandy's digital transformation, where user-centric design and continuous optimization paved the way for a seamless transition amidst shifting brand styles."
+                                role="Sole UX Designer"
                                 company="Skullcandy"
+                                href="/case-studies/sustaining-growth-in-skullcandys-shifting-style"
                                 imageDesktop="michael-stevens-skullcandy-card_desktop.png"
                                 imageMobile="michael-stevens-skullcandy-card_mobile.png"
                             />
