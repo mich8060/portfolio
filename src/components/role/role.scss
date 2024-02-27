@@ -1,0 +1,45 @@
+@import '../../global';
+
+.role {
+    border:solid 1px var(--neutrals--300);
+    border-left:solid 8px var(--sky--600);
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    margin:24px 24px 24px 0;
+    padding:24px;
+
+
+    @media screen and (min-width: $breakpoint--large) {
+        flex-direction: row;
+        gap:48px;
+        margin:24px 24px 24px 0;
+        padding:24px 48px;
+    }
+
+    &--column {
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        gap:16px;
+
+        strong {
+            color:var(--neutrals--700) !important;
+            display: block;
+            letter-spacing:2px !important;
+            margin-bottom:4px;
+            text-transform: uppercase;
+            @include label--xsmall__strong;
+            font-weight: 600;
+        }
+    
+        p {
+            color:var(--neutrals--500) !important;
+            font-size: 14px !important;
+            line-height: 18px !important;
+            letter-spacing: 0em;
+            font-weight: 400;
+            margin:0;
+        }
+    }
+}

@@ -4,16 +4,47 @@
     align-items: center;
     display:flex;
     justify-content: center;
+    max-width:1440px;
+    margin:0 auto;
+
+    &--group {
+        margin-bottom:60px;
+
+        @media screen and (min-width: $breakpoint--large) {
+            margin-bottom:100px;
+        }
+    }
 
     &--block {
         padding:24px 0 24px;
+        position:relative;
 
         h2 {
-            margin-bottom:12px;
-            @include headline--xsmall;
+            color:var(--base---black);
+            font-family: "PT Serif", serif;
+            font-size: 26px;
+            line-height: 120%;
+            font-weight: 700;
+            margin-bottom:24px;
 
-            @media screen and (min-width: $breakpoint--medium) {
-                @include headline--small;
+            &:before {
+                background:var(--sky--600);
+                content:"";
+                display:none;
+                height:4px;
+                margin-bottom: 4px;
+                width:60px;
+            }
+
+            @media screen and (min-width: $breakpoint--large) {
+                color:var(--neutrals--800);
+                font-weight: 500;
+                left:-248px;
+                margin-top:-9px;
+                position:absolute;
+                width:188px;
+
+                &:before { display:block; }
             }
         }
 
@@ -191,7 +222,7 @@
     }
 
     &--container {
-        max-width:1200px;
+        max-width:800px;
         padding:16px;
         width:100%;
 
@@ -256,17 +287,16 @@
         padding:48px 0 12px;
 
         @media screen and (min-width: $breakpoint--medium) {
-            padding:80px 0 12px;
+            padding:80px 0 24px;
         }
 
 
         h1 {
             color:var(--base---black);
-            max-width:800px;
             @include headline--small;
 
             @media screen and (min-width: $breakpoint--medium) {
-                @include headline--medium;
+                @include headline--large;
                 font-weight:600;
             }
     
@@ -326,7 +356,7 @@
         padding:20px 0;
 
         @media screen and (min-width: $breakpoint--medium) {
-            flex: 0 0 300px;
+            flex: 0 0 250px;
         }
 
         h3 {
@@ -398,10 +428,12 @@
     }
 
     &--figma {
+        border-left:solid 20px var(--base---white);
+        border-right:solid 20px var(--base---white);
         margin:48px calc(50% - 50vw);
-        padding-bottom: 75%;
+        padding-bottom: 200%;
         position: relative;
-        width:100vw;
+        width:99vw;
 
         iframe {
             position: absolute;

@@ -14,8 +14,8 @@ function UnifiedLanguage(){
                 <h1>Creating a Unified Design Language</h1>
                 <ul>
                     <li><strong>Role:</strong> Principal Design Leader</li>
-                    <li>Client: Pluralsight</li>
-                    <li>Date: 2022</li>
+                    <li><strong>Client:</strong> Pluralsight</li>
+                    <li><strong>Date:</strong> 2022</li>
                 </ul>
             </div>
             <Tab>
@@ -24,13 +24,13 @@ function UnifiedLanguage(){
                         <h2>Overview</h2>
                         <p>Pluralsight, a leading technology learning platform, aimed to enhance its product design process to accelerate innovation and improve user experience. To achieve this, the Unified Design Language would serve as a self-guided living resource. This playbook integrated validated principles, templates, and methods to empower teams, fostering faster iteration cycles and more reliable insights.</p>
                         <div style={{height:48}}></div>   
-                        <h2>History & Background</h2>
+                        <h2>Project Context</h2>
                         <p>Before embarking on developing the design language, a critical observation revealed a significant disparity among the product teams at Pluralsight in terms of their operational processes. While basic processes were informally taught, each team operated in its unique manner, resulting in a lack of standardization. When inquired about their development resources, teams often resorted to a plethora of disparate Word documents, each tailored to their specific needs. This lack of consistency made it challenging to discern successful practices from ineffective ones. Recognizing the necessity for a cohesive and standardized process became paramount in addressing this issue.</p>
                         <div style={{height:24}}></div> 
                         <h2>Objective</h2>
                         <p>To establish a streamlined workflow for our teams, guaranteeing the inclusion of crucial steps and fostering a cohesive set of adaptable resources capable of evolving seamlessly in tandem.</p>
                         <div style={{height:24}}></div> 
-                        <h2>1. The Process</h2>
+                        <h2>Process</h2>
                         <p>A design process is crucial because it provides structure and guidance for creating solutions that effectively address user needs and business objectives. Below are the four high level phases that we identified in successful teams:</p>
                         <div style={{height:24}}></div> 
                         <div className="details--boxes">
@@ -52,7 +52,7 @@ function UnifiedLanguage(){
                             </div>
                         </div>
                         <div style={{height:48}}></div>
-                        <h2>Phase I: Define</h2>
+                        <h2>Define</h2>
                         <p>Our main objective in the define phase was to create a toolkit of standardized resources that teams could utilize. The toolkit comprises essential elements crucial for defining the scope and objectives of your project, laying the foundation for all subsequent phases. </p>
                         <p>We started by identitying specific actions that when taken had proven successful. Once we had our list of actions we divided them in to essential, supplemental, and recommended actions. </p>
                         <div className="details--boxes">
@@ -179,7 +179,7 @@ function UnifiedLanguage(){
                             </div>
                         </div>
                         <div style={{height:48}}></div>
-                        <h2>Phase II: Research & Analysis</h2>
+                        <h2>Research & Analysis</h2>
                         <p>In the dynamic landscape of product development, the Research & Analysis phase plays a pivotal role, offering a structured approach to systematically study users, gather data, and extract insights critical for informing the subsequent stages of the design process.</p>
                         <div className="details--frame">
                             <small><strong>Research & Analysis Tool Sample:</strong></small>
@@ -222,7 +222,7 @@ function UnifiedLanguage(){
                                 </ol>
                             </div>
                         </div>
-                        <h2>Phase III: Ideation</h2>
+                        <h2>Ideation</h2>
                         <p>A collaborative, iterative process of refinement when the product begins to take shape involves engaging cross-functional teams in continuous cycles of feedback and improvement as the design evolves. This iterative approach fosters creativity, encourages diverse perspectives, and ensures that the product meets user needs effectively.</p>
                         <div className="details--frame">
                             <small><strong>Ideation Tool Samples:</strong></small>
@@ -265,7 +265,7 @@ function UnifiedLanguage(){
                             </div>
                         </div>
                         <div style={{height:48}}></div>
-                        <h2>Phase IV: Implementation & Evaluation</h2>
+                        <h2>Implementation & Evaluation</h2>
                         <p>The process of putting a decision or plan into effect by putting together a technically sound, completely coordinated, and fully scoped concept into action.</p>
                         <div className="details--frame">
                             <small><strong>Implementation & Evaluation Tool Samples:</strong></small>

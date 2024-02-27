@@ -82,6 +82,8 @@
         color:var(--neutrals--600);
         display:none;
         flex:0 0 200px;
+        position: relative;
+        top: -5px;
         @include paragraph--medium;
 
         @media screen and (min-width: $breakpoint--medium) {

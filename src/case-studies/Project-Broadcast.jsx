@@ -1,5 +1,8 @@
 import { Tab, TabPanel } from '../components/tabs';
 
+import Role from '../components/role';
+import Image from '../components/image';
+
 function ProjectBroadcast(){
     return (
         <>
@@ -12,83 +15,118 @@ function ProjectBroadcast(){
             </div>
             <div className="details--headline">
                 <h1>Project Broadcast: Steering the Brand Development Journey</h1>
-                <ul>
-                    <li><strong>Role:</strong> Sole Designer & Product Manager</li>
-                    <li><strong>Client:</strong> Project Broadcast</li>
-                    <li><strong>Date:</strong> 2022-2024</li>
-                </ul>
             </div>
             <Tab>
                 <TabPanel title="Detailed">
                     <div className="details--block">
                         <div className="details--left">
-                            <h2>Starting from Scratch: Building a Brand from the Ground Up</h2>
-                            <p>Imagine being dropped into a world where you have to create something totally new—a brand, from scratch. That's exactly what I faced with Project Broadcast. It was exciting but also kind of overwhelming.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-before.png" alt="" /></div>
-                                <div className="details--right">
-                                    When I arrived projectbroadcast.com was a single page site, odd font usage and the features list at the bottom spanned over 6000 pixels long.
-                                </div>
+                            <div className="details--group">
+                                <h2>Project Context</h2>
+                                <p>Imagine being dropped into a world where you have to create something totally new—a brand, from scratch. That's exactly what I faced with Project Broadcast. It was exciting but also kind of overwhelming.</p>
+                                <Role
+                                    date="2022-2024"
+                                    role="Principal Product Designer & Product Manager"
+                                    method="A/B Testing, Analytics, User Interview, Branding & Color Theory, Figma, PHP Development, React Prototypes"
+                                    teammates="Michael Stevens (Designer, Developer, PM, Basically Everything)"
+                                />
+                                <p>When I arrived at projectbroadcast.com, it was a single-page site with irregular font usage, and the features list at the bottom spanned over 6000 pixels in length.</p>
+                                <Image 
+                                    type="caption" 
+                                    src="/michael-stevens-project-broadcast-before.png" 
+                                    alt="When I arrived projectbroadcast.com was a single page site, odd font usage and the features list at the bottom spanned over 6000 pixels long."
+                                    caption=""
+                                />
                             </div>
-                            <div style={{height:24}}></div>
-                            <h2>Engaging with Our Customers</h2>
-                            <p>Working at Project Broadcast, a text marketing platform, offered me a distinctive and beneficial role. With our product centered around text messaging services, I enjoyed a rare chance to interact directly with our customers.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-chat.png" alt="" /></div>
-                                <div className="details--right">This access allowed me to communicate with customers like never before – simply by sending a chat.</div>
+                            <div className="details--group">
+                                <h2>Customer Insights</h2>
+                                <p>Working at Project Broadcast, a text marketing platform, offered me a distinctive and beneficial role. With our product centered around text messaging services, I enjoyed a rare chance to interact directly with our customers.</p>
+                                <p>This access allowed me to communicate with customers like never before – simply by opening a chat I had direct access to any of our customers.</p>
+                                <Image 
+                                    type="caption" 
+                                    src="/michael-stevens-project-broadcast-chat.png" 
+                                    alt="This access allowed me to communicate with customers like never before – simply by opening a chat I had direct access to any of our customers."
+                                    caption=""
+                                />
+                                <p>The Project Broadcast user demographic skews towards women aged 30 to 50, often balancing small business ownership with daily responsibilities. This engaged community actively participates in webinars and industry events, sharing knowledge and resources to enhance their skills and business strategies.</p>
+                                <Image 
+                                    type="caption" 
+                                    src="/michael-stevens-project-broadcast-share.png" 
+                                    alt="This graphic conveys acurately the sort of sharing nature of Project Broadcast."
+                                    caption="This graphic conveys acurately the sort of sharing nature of Project Broadcast."
+                                />
                             </div>
-                            <div style={{height:24}}></div>
-                            <h2>Discovering Our Users</h2>
-                            <p>The Project Broadcast user demographic skews towards women aged 30 to 50, often balancing small business ownership with daily responsibilities. This engaged community actively participates in webinars and industry events, sharing knowledge and resources to enhance their skills and business strategies.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-share.png" alt="" /></div>
-                                <div className="details--right">I thought this graphic from our YouTube channel conveyed acurately the sort of sharing nature of Project Broadcast.</div>
+
+                            <div className="details--group">
+                                <h2>Logo Design</h2>
+                                <p>Designing the logo was driven by my own dissatisfaction rather than a formal request from the business. Despite their contentment with the wifi symbol as their logo, I felt it didn't sufficiently represent the brand. Inspiration struck when I encountered an illustration experimenting with a 3D effect, igniting the idea to make our logo stand out.</p>
+                                <Image 
+                                    type="caption" 
+                                    src="/michael-stevens-project-broadcast-earily-stages.png" 
+                                    alt="Here are some of the earlier concepts I did before arriving at the final concept."
+                                    caption="Here are some of the earlier concepts I did before arriving at the final concept."
+                                />
+                                <Image 
+                                    type="caption" 
+                                    src="/michael-stevens-project-broadcast-logo.png" 
+                                    alt="The letters 'p, b and d' all had to be handcrafted to pull off the soft edges."
+                                    caption="The letters 'p, b and d' all had to be handcrafted to pull off the soft edges."
+                                />
+                                <p>Ensuring that our brand resonated with our users was a top priority throughout our journey. To achieve this, I formed a special group called the "Product Council." This group consisted of users who were among the first to embrace our platform—our early adopters.</p>
                             </div>
-                            <div style={{height:24}}></div>
-                            <h2>Crafting the Brand's Tone and Illustration Style</h2>
-                            <p>Upon reviewing our users' messages and interactions, a notable trend surfaced: the widespread use of emojis to infuse personality and liveliness into their communication. This discovery prompted a profound realization – our brand must reflect the dynamic and spirited essence of our audience. </p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-illustration-style.png" alt="" /></div>
-                                <div className="details--right">This illustration style captured the fun, bright, and playful essence of the customers I encountered.</div>
+
+                            <div className="details--group">
+                                <h2>Creating the Brand</h2>
+                                <p>Creating a brand extends far beyond designing a logo; it encompasses a holistic strategy that defines the essence and personality of a product or company. It involves crafting principles, sharing a compelling story, clarifying the purpose behind existence, and establishing a consistent voice, appearance, and tone across all touchpoints. Here's a detailed exploration of how we approached these crucial aspects:</p>
+                                <h3>Establishing Brand Principles</h3>
+                                <p>We began by identifying core values and beliefs that form the foundation of our brand. These principles guide our decisions, actions, and interactions with customers, employees, and stakeholders. By articulating clear brand principles, we ensure alignment and consistency in everything we do.</p>
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-principles.png"
+                                />
+                                <h3>Sharing Our Story</h3>
+                                <p>Every brand has a unique narrative that resonates with its audience. We crafted a compelling story that reflects our journey, vision, and mission. By sharing our story authentically and transparently, we connect with customers on a deeper level, fostering trust and loyalty.</p>
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-story.png"
+                                />
+                                <h3>Explaining Why We Exist</h3>
+                                <p>Beyond offering products or services, we defined the purpose behind our existence. We articulated the problem we aim to solve, the needs we address, and the impact we aspire to make in the lives of our customers and the broader community. This clarity of purpose inspires both our team and our customers, driving meaningful engagement and support.</p>
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-exist.png"
+                                />
+                                <h3>Defining Our Voice, Look, and Sound</h3>
+                                <p>Consistency is key to building a strong and recognizable brand. We meticulously defined our brand's voice, ensuring that our communication across all channels reflects our personality, values, and objectives. Additionally, we established visual guidelines that govern our brand's appearance, from color schemes and typography to imagery and design elements. Our brand's tone is carefully calibrated to resonate with our target audience, conveying the right emotions and messages in every interaction.</p>
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-voice.png"
+                                />
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-illustration-style.png"
+                                />
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-sound.png"
+                                />
+                                <p>In conclusion, creating a brand goes beyond surface-level aesthetics; it requires a strategic and multifaceted approach that encompasses principles, storytelling, purpose, and consistency. By investing in these foundational elements, we not only establish a strong brand identity but also cultivate lasting relationships with our audience, driving loyalty, advocacy, and success.</p>
                             </div>
-                            <div style={{height:24}}></div>
-                            <p>Instead of dull colors, I used bright ones and added fun designs, like basic shapes that looked like emojis. Every detail was carefully chosen to make people feel energized and happy when they used our platform. After a few months of building bits and pieces I started to assemble a brand book.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><iframe title="Project Broadcast Brandbook" src="/Project-Broadcast-Brandbook.pdf" width="100%" height="600px"></iframe></div>
-                                <div className="details--right">As I worked I began to assemble a brand book to capature everything from the look, tone and feel of the site, but also to capture the why around Project Broadcast.</div>
+                            <div className="details--group">
+                                <h2>Implementation and Results</h2>
+                                <p>After months of hard work and dedication, our marketing site underwent a remarkable transformation. Previously just a single page, it was completely redesigned from scratch, bringing new life and energy to our brand.</p>
+                                <p></p>
+                                <Image
+                                    type="caption"
+                                    src="/michael-stevens-project-broadcast-first-iterations.png"
+                                    alt="This represents one of the initial versions of our new marketing site upon its launch."
+                                    caption="This represents one of the initial versions of our new marketing site upon its launch."
+                                />
+                                <p>A glimpse at the latest iteration of our homepage, influenced by our comprehensive competitive analysis.</p>
+                                <Image
+                                    type="container"
+                                    src="/michael-stevens-project-broadcast-latest-home.png"
+                                />
                             </div>
-                            <div style={{height:24}}></div>
-                            <h2>Designing of the Branding</h2>
-                            <p>Designing the logo was driven by my own dissatisfaction rather than a formal request from the business. Despite their contentment with the wifi symbol as their logo, I felt it didn't sufficiently represent the brand. Inspiration struck when I encountered an illustration experimenting with a 3D effect, igniting the idea to make our logo stand out.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-earily-stages.png" alt="" /></div>
-                                <div className="details--right">Here are some of the earlier concepts I did before arriving at the final concept.</div>
-                            </div>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-logo.png" alt="" /></div>
-                                <div className="details--right">The letters "p, b and d" all had to be handcrafted to pull off the soft edges.</div>
-                            </div>
-                            <div style={{height:24}}></div>
-                            <p>Ensuring that our brand resonated with our users was a top priority throughout our journey. To achieve this, I formed a special group called the "Product Council." This group consisted of users who were among the first to embrace our platform—our early adopters.</p>
-                            <div style={{height:24}}></div>
-                            <h2>Crafting the Marketing Site</h2>
-                            <p>After analyzing our competitors' sites, I noticed certain patterns that seemed to repeat consistently throughout our industry. I set out to create a website that not only captured the essence of our brand but also spoke the language of our users.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><iframe title="Competitive Analysis" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh4NlDsARD_edejzXxmurq7DvNAZndcUaN5F5Mt3yavBIoFRw4ayFi6evojov8EFP7DERl6awcxAOA/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600px"></iframe></div>
-                                <div className="details--right">The analysis focused on everything from the way they organized their navigation, to the features and resources they provided their customers.</div>
-                            </div>
-                            <div style={{height:24}}></div>
-                            <h2>Implementation and Results</h2>
-                            <p>After months of hard work and dedication, our marketing site underwent a remarkable transformation. Previously just a single page, it was completely redesigned from scratch, bringing new life and energy to our brand.</p>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-first-iterations.png" alt="" /></div>
-                                <div className="details--right">This represents one of the initial versions of our new marketing site upon its launch.</div>
-                            </div>
-                            <div className="details--inline">
-                                <div className="details--left"><img src="/michael-stevens-project-broadcast-latest-home.png" alt="" /></div>
-                                <div className="details--right">Take a glimpse at the latest iteration of our homepage, influenced by our comprehensive competitive analysis.</div>
-                            </div>
-                            <p>In just a few months, our marketing site experienced a remarkable surge in traffic, tripling in size. This substantial growth wasn't merely fortuitous; it was supported by robust data analysis. With access to insights through tools like Google Analytics, we gained unprecedented visibility into our site's performance, empowering us to identify areas for ongoing enhancement and optimization.</p>
                         </div>
                     </div>
                 </TabPanel>

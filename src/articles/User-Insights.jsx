@@ -8,8 +8,8 @@ function ProjectBroadcast(){
                 <div className="details--desktop"><img src="/michael-stevens-project-user-interviews-hero_desktop.png" alt="" /></div>
                 <div className="details--tablet"><img src="/michael-stevens-project-user-interviews-hero_tablet.png" alt="" /></div>
                 <div className="details--mobile"><img src="/michael-stevens-project-user-interviews-hero_mobile.png" alt="" /></div>
-                <div className="details--visual_left" style={{background:'#F9FAFC'}}></div>
-                <div className="details--visual_right" style={{background:'#F9FAFC'}}></div>
+                <div className="details--visual_left" style={{background:'#000'}}></div>
+                <div className="details--visual_right" style={{background:'#000'}}></div>
             </div>
             <div className="details--headline">
                 <h1>Unlocking User Insights: A Guide to Effective User Interviews</h1>

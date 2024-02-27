@@ -1,0 +1,77 @@
+@import '../../global';
+
+.image {
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    margin:24px 0;
+
+    @media screen and (min-width: $breakpoint--medium) {
+        flex-direction: row;
+    }
+
+    &--caption {
+
+        @media screen and (min-width: $breakpoint--medium) {
+            flex: 0 0 250px;
+        }
+
+        img {
+            border:solid 1px var(--neutrals--200);
+            flex:0 0 auto;
+            max-width:760px;
+            width:100%;
+        }
+
+        figcaption {
+            border-top:solid 4px var(--neutrals--200);
+            color: var(--neutrals--700);
+            line-height:24px;
+            padding:20px 0;
+
+            @media screen and (min-width: $breakpoint--medium) {
+                flex: 0 0 250px;
+            }
+
+            h3 {
+                @include headline--xsmall;
+                padding:12px 0;
+            }
+
+            p {
+                color: var(--neutrals--700);
+                margin-bottom:24px;
+                @include paragraph--medium;
+            }
+
+            ol {
+                margin:12px 0;
+                @include paragraph--medium;
+
+                li { margin:0 0 8px; }
+            }
+        }
+    }
+
+    &--container {
+        justify-content: center;
+        margin:24px 0 80px;
+        margin-left: calc(50% - 50vw);
+        max-width: 100vw;
+        width: 100vw;
+
+        .image {
+
+            &--content {
+                max-width:1200px;
+            }
+        }
+    }
+
+    &--large {
+        margin:80px 0;
+        margin-left: calc(50% - 50vw);
+        max-width: 100vw;
+        width: 100vw;
+    }
+}
