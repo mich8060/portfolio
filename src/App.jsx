@@ -15,7 +15,7 @@ import Header from './components/header/Header';
 import ArticleDetail from './pages/ArticleDetail';
 
 
-ReactGA.initialize('UA-47161798-1');
+ReactGA.initialize('G-12J5RBFWXF');
 
 function ScrollToTop() {
   const location = useLocation();
