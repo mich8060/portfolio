@@ -21,10 +21,10 @@
 
         h2 {
             color:var(--base---black);
-            font-family: "PT Serif", serif;
+            font-family: "Nanum Myeongjo", serif;
             font-size: 26px;
             line-height: 120%;
-            font-weight: 700;
+            font-weight: 800;
             margin-bottom:24px;
 
             &:before {
@@ -38,7 +38,7 @@
 
             @media screen and (min-width: $breakpoint--large) {
                 color:var(--neutrals--800);
-                font-weight: 500;
+                font-weight: 600;
                 left:-248px;
                 margin-top:-9px;
                 position:absolute;
