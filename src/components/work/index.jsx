@@ -7,6 +7,7 @@ function Work({children}){
                 <div className="work--column">
                     <small>Experience</small>
                     <ul>
+                        <li><strong>Principal UX Designer</strong> CHG Healthcare – April 2024 to Present</li>
                         <li><strong>Principal Product Designer</strong> Project Broadcast – April 2022 to Feb 2024</li>
                         <li><strong>Principal Product Designer</strong> Pluralsight.com – June 2021 to April 2022</li>
                         <li><strong>Sr. Product Designer</strong> Pluralsight.com – June 2016 to June 2021</li>
