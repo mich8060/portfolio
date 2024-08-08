@@ -28,7 +28,7 @@ function HomepageEvolution(){
                                 date="2019-2022"
                                 role="Sr. Product Designer"
                                 method="A/B Testing, User Interview, Cross-Functional Collaboration, Visual Hierarchy, Figma"
-                                teammates="Michael Stevens(Designer), Roman Valentine(PM)"
+                                teammates="Michael Stevens(Designer), Roman Valentine(PM), Meg DeWolf(PM)"
                             />
                         </div>
                         
